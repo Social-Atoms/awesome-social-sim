@@ -1,0 +1,16 @@
+{
+  "id": "sotopia-interactive-evaluation-for-social-intelligence-in-language-agents",
+  "title": "SOTOPIA: Interactive Evaluation for Social Intelligence in Language Agents",
+  "url": "https://openreview.net/forum?id=mM7VurbA4r",
+  "venue": "ICLR 2024",
+  "year": 2024,
+  "tags": [
+    "evaluation",
+    "multi-agent"
+  ],
+  "notes": {
+    "evaluation": "Introduces interactive social scenarios and a framework for evaluating agents’ social goals.",
+    "multi-agent": "Introduces interactive social scenarios and a framework for evaluating agents’ social goals."
+  },
+  "primaryTopic": "evaluation"
+}

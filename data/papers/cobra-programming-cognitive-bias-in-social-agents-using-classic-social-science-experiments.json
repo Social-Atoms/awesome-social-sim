@@ -1,0 +1,16 @@
+{
+  "id": "cobra-programming-cognitive-bias-in-social-agents-using-classic-social-science-experiments",
+  "title": "CoBRA: Programming Cognitive Bias in Social Agents Using Classic Social Science Experiments",
+  "url": "https://doi.org/10.1145/3772318.3790804",
+  "venue": "CHI 2026 (Best Paper)",
+  "year": 2026,
+  "tags": [
+    "control-calibration",
+    "social-experiments"
+  ],
+  "notes": {
+    "control-calibration": "Controls LLM agents’ cognitive biases across input (prompting), hidden (representation steering), and parameter (fine-tuning) spaces using classic social-science experiments as behavioral anchors.",
+    "social-experiments": "Controls LLM agents’ cognitive biases across input (prompting), hidden (representation steering), and parameter (fine-tuning) spaces using classic social-science experiments as behavioral anchors."
+  },
+  "primaryTopic": "control-calibration"
+}

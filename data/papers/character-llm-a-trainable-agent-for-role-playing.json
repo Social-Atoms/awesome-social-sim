@@ -1,0 +1,16 @@
+{
+  "id": "character-llm-a-trainable-agent-for-role-playing",
+  "title": "Character-LLM: A Trainable Agent for Role-Playing",
+  "url": "https://aclanthology.org/2023.emnlp-main.814/",
+  "venue": "EMNLP 2023",
+  "year": 2023,
+  "tags": [
+    "control-calibration",
+    "silicon-participants"
+  ],
+  "notes": {
+    "control-calibration": "Controls a simulated character through experience reconstruction and character-specific fine-tuning.",
+    "silicon-participants": "Trains personal simulacra from character profiles, experiences, and emotional states."
+  },
+  "primaryTopic": "control-calibration"
+}

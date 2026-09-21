@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="Selected research on LLM-based simulations of human behavior and social interaction. A reading room by Social Atoms.">
+  <title>Awesome Social Simulation — Social Atoms</title>
+  <link rel="icon" type="image/svg+xml" sizes="any" href="__FAVICON__">
+  <link rel="preload" href="assets/inconsolata-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="select-control.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#papers">Skip to papers</a>
+  <div class="page">
+    <header class="masthead">
+      <a class="brand" href="./" aria-label="Social Atoms research home">
+        <img src="assets/social-atoms.svg" alt="" width="28" height="28">
+        <span>Social Atoms <span class="divider">/</span> Research</span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About the list</a>
+        <a class="repo-link" href="https://github.com/Social-Atoms/awesome-social-sim" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <section class="intro" aria-labelledby="page-title">
+      <h1 id="page-title">AWESOME SOCIAL SIMULATION</h1>
+      <p class="intro-copy">Selected research on LLM-based simulations<br class="desktop-break"> of human behavior and social interaction.</p>
+      <p class="collection-meta"><span>__PAPER_COUNT__ papers</span><span>__TOPIC_COUNT__ topics</span><span>__YEAR_RANGE__</span></p>
+    </section>
+
+    <div class="document-layout">
+      <aside class="contents">
+        <details class="topic-disclosure" open>
+          <summary>Browse topics <span aria-hidden="true">−</span></summary>
+          <nav aria-label="Research topics">
+            <p class="nav-label">BROWSE TOPICS</p>
+            <ul class="topic-list">__TOPIC_LINKS__</ul>
+          </nav>
+        </details>
+        <div class="sidebar-note"><p>One paper can belong<br>to several topics.</p><a href="#criteria">Selection criteria <span aria-hidden="true">↗</span></a></div>
+        <a class="contribute-link" href="https://github.com/Social-Atoms/awesome-social-sim/issues/new?template=paper-suggestion.yml" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">+</span> Suggest a paper</a>
+      </aside>
+
+      <main id="papers" tabindex="-1">
+        <section class="catalogue" aria-labelledby="collection-title">
+          <div class="collection-heading">
+            <div><p class="section-label">THE COLLECTION</p><h2 id="collection-title">All papers</h2></div>
+            <p id="result-count" class="result-count" role="status" aria-live="polite">__PAPER_COUNT__ papers</p>
+          </div>
+          <p id="topic-description" class="topic-description">Browse the full collection, or follow a topic.</p>
+          <form id="filters" class="filters" role="search" hidden>
+            <div class="search-box"><svg aria-hidden="true" width="17" height="17" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><label for="search" class="sr-only">Search papers, authors, venues, or topics</label><input id="search" type="search" placeholder="Search papers, authors, topics…" autocomplete="off"><button type="button" id="clear-search" aria-label="Clear search" hidden><svg aria-hidden="true" width="14" height="14" viewBox="0 0 20 20"><path d="m5 5 10 10M15 5 5 15"/></svg></button></div>
+            <label for="year" class="sr-only">Publication year</label><select id="year"><option value="">All years</option>__YEAR_OPTIONS__</select>
+            <label for="sort" class="sr-only">Sort papers</label><select id="sort"><option value="newest">Newest first</option><option value="oldest">Oldest first</option><option value="title">Title A–Z</option></select>
+          </form>
+          <div class="active-filters" id="active-filters" hidden><span id="filter-summary"></span><button type="button" id="reset">Clear filters</button></div>
+          <div class="column-headings" aria-hidden="true"><span>PAPER / PUBLICATION</span><span>WHY IT IS INCLUDED</span></div>
+          <div id="paper-list">__PAPER_ROWS__</div>
+          <div id="empty-state" class="empty-state" hidden><h3>No papers found.</h3><p>Try a different term, topic, or publication year.</p><button type="button" id="empty-reset">Show all papers</button></div>
+          <div class="collection-end"><span id="end-count">End of collection · __PAPER_COUNT__ papers</span><a href="#papers">Back to top ↑</a></div>
+        </section>
+
+        <section id="about" class="about" aria-labelledby="about-title">
+          <p class="section-label">ABOUT THIS COLLECTION</p><h2 id="about-title">A focused reading list.</h2>
+          <p>Maintained by Social Atoms. Each paper is selected for its contribution to simulating human behavior, social interaction, or collective dynamics.</p>
+          <details id="criteria" class="info-fold"><summary>What belongs in the list?<span aria-hidden="true">+</span></summary><div><p>Peer-reviewed papers published or accepted at established conferences or journals. Original research, benchmarks, and selected position papers are included, with publication track and acceptance status shown explicitly.</p><p>The collection excludes stand-alone preprints, workshop-only entries, and surveys. Earlier workshop presentations may appear in a paper’s publication history. General-purpose multi-agent task solving is outside its scope.</p><p>Years refer to the publication or acceptance venue, not the first preprint. Topic labels describe a paper’s focus; they are not ratings of evidence or reliability.</p></div></details>
+          <details class="info-fold"><summary>How can I contribute?<span aria-hidden="true">+</span></summary><div><p>Suggest a paper with its official publication link, venue, and a short explanation of its social-simulation contribution. Use the existing topics and prioritize the paper’s main contribution.</p><a href="https://github.com/Social-Atoms/awesome-social-sim/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">Contribute on GitHub ↗</a></div></details>
+        </section>
+      </main>
+    </div>
+    <footer><span>Social Atoms <span class="divider">/</span> Research</span><span>Collection updated · __UPDATED_AT__</span></footer>
+  </div>
+  <script id="collection-data" type="application/json">__COLLECTION_DATA__</script>
+</body>
+</html>

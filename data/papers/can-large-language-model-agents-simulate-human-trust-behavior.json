@@ -1,0 +1,16 @@
+{
+  "id": "can-large-language-model-agents-simulate-human-trust-behavior",
+  "title": "Can Large Language Model Agents Simulate Human Trust Behavior?",
+  "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/1cb57fcf7ff3f6d37eebae5becc9ea6d-Abstract-Conference.html",
+  "venue": "NeurIPS 2024",
+  "year": 2024,
+  "tags": [
+    "evaluation",
+    "social-experiments"
+  ],
+  "notes": {
+    "evaluation": "Compares agent decisions in trust games with human trust behavior.",
+    "social-experiments": "Compares agent decisions in trust games with human trust behavior."
+  },
+  "primaryTopic": "evaluation"
+}

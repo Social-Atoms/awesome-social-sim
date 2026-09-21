@@ -1,0 +1,16 @@
+{
+  "id": "out-of-one-many-using-language-models-to-simulate-human-samples",
+  "title": "Out of One, Many: Using Language Models to Simulate Human Samples",
+  "url": "https://doi.org/10.1017/pan.2023.2",
+  "venue": "Political Analysis 2023",
+  "year": 2023,
+  "tags": [
+    "evaluation",
+    "silicon-participants"
+  ],
+  "notes": {
+    "evaluation": "Compares simulated survey answers across demographic groups with human survey responses.",
+    "silicon-participants": "Compares simulated survey answers across demographic groups with human survey responses."
+  },
+  "primaryTopic": "silicon-participants"
+}

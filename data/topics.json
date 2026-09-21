@@ -1,0 +1,27 @@
+[
+  {
+    "id": "control-calibration",
+    "label": "Control and calibration",
+    "description": "Methods that measure, control, or calibrate simulated behavior toward specified targets."
+  },
+  {
+    "id": "evaluation",
+    "label": "Evaluation",
+    "description": "Benchmarks or human-grounded checks of simulation fidelity and social behavior."
+  },
+  {
+    "id": "silicon-participants",
+    "label": "Silicon participants",
+    "description": "Simulated human participants, including survey and questionnaire responses."
+  },
+  {
+    "id": "social-experiments",
+    "label": "Social science experiments",
+    "description": "Simulations based on behavioral, psychology, or economics experiments."
+  },
+  {
+    "id": "multi-agent",
+    "label": "Multi-agent interaction",
+    "description": "Multiple agents interact and influence one another."
+  }
+]

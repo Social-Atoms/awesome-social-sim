@@ -1,0 +1,37 @@
+name: Correct an entry or report a website issue
+description: Fix metadata, links, inclusion notes, or the reading interface.
+title: "[Correction] "
+body:
+  - type: input
+    id: affected
+    attributes:
+      label: Affected paper or page
+      description: Link the paper record, topic page, or website view where you found the problem.
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: What needs attention?
+      options:
+        - Publication, author, or other metadata
+        - Broken or outdated link
+        - Inclusion note or topic assignment
+        - Website behavior or accessibility
+        - Other correction
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Current problem and proposed correction
+      description: Explain what is wrong and what should replace it. For a website issue, include steps to reproduce and the expected behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting evidence
+      description: For factual corrections, link an authoritative source. For website issues, a screenshot and browser or device details can help.
+    validations:
+      required: true

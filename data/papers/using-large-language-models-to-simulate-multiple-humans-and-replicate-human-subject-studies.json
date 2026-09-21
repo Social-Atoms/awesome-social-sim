@@ -1,0 +1,18 @@
+{
+  "id": "using-large-language-models-to-simulate-multiple-humans-and-replicate-human-subject-studies",
+  "title": "Using Large Language Models to Simulate Multiple Humans and Replicate Human Subject Studies",
+  "url": "https://proceedings.mlr.press/v202/aher23a.html",
+  "venue": "ICML 2023",
+  "year": 2023,
+  "tags": [
+    "evaluation",
+    "silicon-participants",
+    "social-experiments"
+  ],
+  "notes": {
+    "evaluation": "Introduces Turing Experiments to test replication of classic human-subject findings.",
+    "silicon-participants": "Introduces Turing Experiments to test replication of classic human-subject findings.",
+    "social-experiments": "Introduces Turing Experiments to test replication of classic human-subject findings."
+  },
+  "primaryTopic": "social-experiments"
+}
