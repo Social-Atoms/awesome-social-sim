@@ -329,7 +329,7 @@ def render_page(papers: list[dict], topics: list[dict], collection: dict, root: 
     months = ('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec')
     replacements = {
         '__FIELD_MAP__': (root / 'site/static/assets/field-map.svg').read_text(encoding='utf-8'),
-        '__RESEARCH_LOOP__': (root / 'site/static/assets/research-loop.svg').read_text(encoding='utf-8'),
+        '__FIELD_MAP_MOBILE__': (root / 'site/static/assets/field-map-mobile.svg').read_text(encoding='utf-8'),
         '__FAVICON__': 'data:image/svg+xml,' + quote((root / 'site/static/assets/social-atoms.svg').read_text(encoding='utf-8'), safe=''),
         '__PAPER_ROWS__': '\n'.join(rows), '__TOPIC_LINKS__': links, '__COLLECTION_DATA__': payload,
         '__PAPER_COUNT__': str(len(papers)), '__TOPIC_COUNT__': str(len(topics)),

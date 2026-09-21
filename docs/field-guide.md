@@ -1,8 +1,8 @@
 # Field guide
 
-The field map and research loop are original editorial syntheses of LLM-based social simulation, informed by the sources below. They connect individuals and cognition, interactions and experiments, and collective dynamics; collective context also shapes individual behavior. Control, calibration, and evaluation apply across these scales. The map provides an orientation to the field, while this repository covers selected research rather than an exhaustive taxonomy.
+One map connects what social simulation studies with how its claims are tested. Individuals, interactions, and societies are related scales, not numbered stages: people shape collective patterns, and social context shapes individual behavior.
 
-The research loop connects human evidence, agent and environment design, simulated behavior, and evaluation, with feedback into model revision. Plausible output alone does not establish fidelity: evidence must support the particular population, setting, and behavior being modeled. The background readings below support this orientation and remain separate from the curated research entries and their paper counts.
+The shared research cycle starts from human evidence, moves through modeling and simulation, and evaluates results before refining assumptions. Calibration and evaluation apply at every scale. The map is an editorial orientation to LLM-based social simulation, not an exhaustive taxonomy. Plausible behavior alone does not establish fidelity to a population or setting.
 
 ## Background reading
 
@@ -12,6 +12,6 @@ The research loop connects human evidence, agent and environment design, simulat
 
 ## Maintenance
 
-Edit the source assets in [`site/static/assets/field-map.svg`](../site/static/assets/field-map.svg) and [`site/static/assets/research-loop.svg`](../site/static/assets/research-loop.svg); [`scripts/build.py`](../scripts/build.py) embeds them in the website. Keep the SVG titles, descriptions, labels, and the accompanying text captions consistent.
+Edit [`site/static/assets/field-map.svg`](../site/static/assets/field-map.svg); [`scripts/build.py`](../scripts/build.py) embeds the map in the website. Its [mobile layout](../site/static/assets/field-map-mobile.svg) presents the same concepts vertically. Keep its title, description, labels, and accompanying caption consistent. The README uses matching light and dark artwork in [`docs/assets/`](assets/).
 
-Green links in the field map open existing catalogue topics: `silicon-participants`, `social-experiments`, `multi-agent`, `control-calibration`, and `evaluation`. Keep their `data-topic` values and URL parameters aligned with [`data/topics.json`](../data/topics.json). The links are reading entry points, not an assertion that each topic belongs to only one scale.
+The site's topic navigation remains the entry point into the collection. Topics are research approaches and concerns that can span several scales; they are not exclusive categories within the map. Background readings are separate from the curated entries and their paper counts.
