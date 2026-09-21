@@ -1,105 +1,153 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="500" viewBox="0 0 1040 500" class="field-map-svg" aria-labelledby="field-map-title field-map-desc">
-  <title id="field-map-title">From individual behavior to collective dynamics</title>
-  <desc id="field-map-desc">An editorial reading map of language-model social simulation. Individuals participate in interactions, and interactions can produce collective dynamics; collective context also shapes individual behavior. Silicon participants, social science experiments, and multi-agent interaction are three entry points into the collection. Control and calibration, and evaluation, apply across every level. Select any of the five research strands to browse its papers.</desc>
-  <defs>
-    <marker id="field-map-arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M1 1 7 4 1 7" fill="none" stroke="#9baa9c" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/></marker>
-    <style>
-      .field-map-svg{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;background:#fff}
-      .field-map-svg .field-map-card{fill:#fbfcfa;stroke:#dfe5dc;stroke-width:1}
-      .field-map-svg .field-map-number{fill:#15803d;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:17px}
-      .field-map-svg .field-map-heading{fill:#111110;font-size:23px;font-weight:600;letter-spacing:-.4px}
-      .field-map-svg .field-map-copy{fill:#55544e;font-size:17px}
-      .field-map-svg .field-map-small{fill:#64715f;font-size:16px}
-      .field-map-svg .field-map-rule{fill:none;stroke:#a8b5a6;stroke-width:1.25;stroke-linecap:round;stroke-linejoin:round}
-      .field-map-svg .field-map-icon{fill:none;stroke:#53784f;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
-      .field-map-svg .field-topic-link{cursor:pointer;text-decoration:none}
-      .field-map-svg .field-map-topic-box{fill:#fff;stroke:#c5d7bf;stroke-width:1;transition:fill 140ms,stroke 140ms}
-      .field-map-svg .field-map-topic-text{fill:#176637;font-size:17px;font-weight:500}
-      .field-map-svg .field-map-topic-arrow{fill:none;stroke:#487644;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}
-      .field-map-svg .field-map-band{fill:#f3f7ef;stroke:#dbe5d5;stroke-width:1;transition:fill 140ms,stroke 140ms}
-      .field-map-svg .field-map-band-title{fill:#245e2e;font-size:20px;font-weight:500;letter-spacing:-.15px}
-      .field-map-svg .field-topic-link:hover .field-map-topic-box,.field-map-svg .field-topic-link:hover .field-map-band{fill:#eaf3e6;stroke:#8eb087}
-      .field-map-svg .field-topic-link:focus-visible{outline:none}
-      .field-map-svg .field-topic-link:focus-visible .field-map-topic-box,.field-map-svg .field-topic-link:focus-visible .field-map-band{stroke:#15803d;stroke-width:2.5}
-      .field-map-svg .field-topic-link[aria-current="true"] .field-map-topic-box,.field-map-svg .field-topic-link[aria-current="true"] .field-map-band{fill:#e5f1df;stroke:#6c9863;stroke-width:1.5}
-      @media(prefers-reduced-motion:reduce){.field-map-svg .field-map-topic-box,.field-map-svg .field-map-band{transition:none}}
-    </style>
-  </defs>
-
-  <!-- The return path expresses context, rather than a one-way causal ladder. -->
-  <path class="field-map-rule" d="M864 48V22H176V48" marker-end="url(#field-map-arrow)"/>
-  <rect x="403" y="8" width="234" height="28" fill="#fff"/>
-  <text x="520" y="28" text-anchor="middle" class="field-map-small">Context shapes behavior</text>
-
-  <rect x="24" y="48" width="304" height="220" rx="7" class="field-map-card"/>
-  <rect x="368" y="48" width="304" height="220" rx="7" class="field-map-card"/>
-  <rect x="712" y="48" width="304" height="220" rx="7" class="field-map-card"/>
-  <path class="field-map-rule" d="M335 154H361" marker-end="url(#field-map-arrow)"/>
-  <path class="field-map-rule" d="M679 154H705" marker-end="url(#field-map-arrow)"/>
-
-  <text x="46" y="86" class="field-map-number">01</text>
-  <g class="field-map-icon" aria-hidden="true">
-    <circle cx="286" cy="76" r="6"/>
-    <path d="M274 94v-3a12 12 0 0 1 24 0v3M298 73l8-6M301 87l8 3"/>
-    <circle cx="310" cy="64" r="3"/><circle cx="313" cy="91" r="3"/>
-  </g>
-  <text x="46" y="130" class="field-map-heading">Individuals</text>
-  <text x="46" y="162" class="field-map-copy">Personas, beliefs and memory</text>
-  <text x="46" y="185" class="field-map-copy">Decisions in context</text>
-  <a class="field-topic-link" data-topic="silicon-participants" href="https://social-atoms.github.io/awesome-social-sim/?topic=silicon-participants#papers" tabindex="0" aria-label="Browse Silicon participants papers">
-    <rect x="44" y="208" width="264" height="40" rx="4" class="field-map-topic-box"/>
-    <text x="58" y="233" class="field-map-topic-text">Silicon participants</text>
-    <path d="M284 227h10m-4-4 4 4-4 4" class="field-map-topic-arrow"/>
-  </a>
-
-  <text x="390" y="86" class="field-map-number">02</text>
-  <g class="field-map-icon" aria-hidden="true">
-    <circle cx="628" cy="76" r="5"/><circle cx="648" cy="76" r="5"/>
-    <path d="M619 94v-4a9 9 0 0 1 18 0v4M639 94v-4a9 9 0 0 1 18 0v4M626 63h23m-4-4 4 4-4 4"/>
-  </g>
-  <text x="390" y="130" class="field-map-heading">Interactions</text>
-  <text x="390" y="162" class="field-map-copy">Social situations and norms</text>
-  <text x="390" y="185" class="field-map-copy">Cooperation and experiments</text>
-  <a class="field-topic-link" data-topic="social-experiments" href="https://social-atoms.github.io/awesome-social-sim/?topic=social-experiments#papers" tabindex="0" aria-label="Browse Social science experiments papers">
-    <rect x="388" y="208" width="264" height="40" rx="4" class="field-map-topic-box"/>
-    <text x="402" y="233" class="field-map-topic-text">Social science experiments</text>
-    <path d="M628 227h10m-4-4 4 4-4 4" class="field-map-topic-arrow"/>
-  </a>
-
-  <text x="734" y="86" class="field-map-number">03</text>
-  <g class="field-map-icon" aria-hidden="true">
-    <path d="m970 65 21 5 7 21-23 6-16-17 11-15m0 0 5 32m16-27-32 10m39 11-28-26m5 32 16-27"/>
-    <circle cx="970" cy="65" r="3.5" fill="#fbfcfa"/><circle cx="991" cy="70" r="3.5" fill="#fbfcfa"/>
-    <circle cx="998" cy="91" r="3.5" fill="#fbfcfa"/><circle cx="975" cy="97" r="3.5" fill="#fbfcfa"/>
-    <circle cx="959" cy="80" r="3.5" fill="#fbfcfa"/>
-  </g>
-  <text x="734" y="130" class="field-map-heading">Collective dynamics</text>
-  <text x="734" y="162" class="field-map-copy">Networks, institutions, markets</text>
-  <text x="734" y="185" class="field-map-copy">Emergence and social change</text>
-  <path d="M734 210h260" stroke="#e3e8df" stroke-width="1"/>
-  <text x="734" y="237" class="field-map-small">Patterns at population scale</text>
-
-  <!-- Multi-agent work bridges interaction and collective dynamics. -->
-  <path d="M520 268v39h36M864 268v39h-34" class="field-map-rule"/>
-  <a class="field-topic-link" data-topic="multi-agent" href="https://social-atoms.github.io/awesome-social-sim/?topic=multi-agent#papers" tabindex="0" aria-label="Browse Multi-agent interaction papers">
-    <rect x="556" y="286" width="274" height="42" rx="4" class="field-map-topic-box"/>
-    <text x="572" y="312" class="field-map-topic-text">Multi-agent interaction</text>
-    <path d="M801 307h10m-4-4 4 4-4 4" class="field-map-topic-arrow"/>
-  </a>
-
-  <text x="24" y="343" class="field-map-small" letter-spacing="1.1">ACROSS EVERY LEVEL</text>
-  <a class="field-topic-link" data-topic="control-calibration" href="https://social-atoms.github.io/awesome-social-sim/?topic=control-calibration#papers" tabindex="0" aria-label="Browse Control and calibration papers">
-    <rect x="24" y="360" width="992" height="52" rx="5" class="field-map-band"/>
-    <text x="45" y="393" class="field-map-band-title">Control and calibration</text>
-    <path d="M350 372v28" stroke="#d0dfc9" stroke-width="1"/>
-    <text x="373" y="392" class="field-map-copy">Align personas, behavior and population assumptions</text>
-    <path d="M975 386h14m-5-5 5 5-5 5" class="field-map-topic-arrow"/>
-  </a>
-  <a class="field-topic-link" data-topic="evaluation" href="https://social-atoms.github.io/awesome-social-sim/?topic=evaluation#papers" tabindex="0" aria-label="Browse Evaluation papers">
-    <rect x="24" y="426" width="992" height="52" rx="5" class="field-map-band"/>
-    <text x="45" y="459" class="field-map-band-title">Evaluation</text>
-    <path d="M350 438v28" stroke="#d0dfc9" stroke-width="1"/>
-    <text x="373" y="458" class="field-map-copy">Test validity, bias, robustness and transfer to people</text>
-    <path d="M975 452h14m-5-5 5 5-5 5" class="field-map-topic-arrow"/>
-  </a>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" class="field-map-svg" role="img" aria-labelledby="field-map-title field-map-desc">
+ <title id="field-map-title">A map of social simulation</title>
+ <desc id="field-map-desc">Individuals, interactions, and societies are connected levels of social simulation. Beliefs and decisions, relations and coordination, and collective patterns influence one another. Human evidence informs a shared cycle of modeling, simulation, evaluation, and refinement across every level.</desc>
+ <defs><style>
+ .field-map-paper{fill:#fbfcf8}.field-map-ink{fill:#18281f}.field-map-muted{fill:#536257}
+ .field-map-line{fill:none;stroke:#c9d8c7;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+ .field-map-orbit{fill:none;stroke:#dce8d8;stroke-width:1.5}
+ .field-map-edge{fill:none;stroke:#9cbaa0;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+ .field-map-accent{fill:none;stroke:#287044;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+ .field-map-node{fill:#fbfcf8;stroke:#287044;stroke-width:1.8}
+ .field-map-solid{fill:#287044;stroke:#fbfcf8;stroke-width:2.2}
+ .field-map-label{fill:#18281f;font-size:35px;font-weight:600;letter-spacing:-.8px}
+ .field-map-copy{fill:#536257;font-size:26px;letter-spacing:-.4px}
+ .field-map-step{fill:#18281f;font-size:28px;font-weight:500;letter-spacing:-.4px}
+ .field-map-text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+ </style>
+ <marker id="field-map-arrow" viewBox="0 0 8 8" refX="6" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="m2 1 3 3-3 3" fill="none" stroke="#287044" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+ <rect width="1200" height="520" class="field-map-paper"/>
+ <g transform="translate(0 14)"><g class="field-map-text">
+ <g aria-hidden="true">
+ <ellipse cx="600" cy="128" rx="522" ry="119" fill="#f0f5ec"/>
+ <path class="field-map-orbit" d="M204 59C402-14 798-14 996 59M204 207C402 268 798 268 996 207"/>
+ <path class="field-map-accent" d="M518 19c54-4 111-4 165 0" marker-start="url(#field-map-arrow)" marker-end="url(#field-map-arrow)" opacity=".6"/>
+ <path class="field-map-edge" d="M246 125C347 87 436 84 551 112M248 144C350 178 455 191 570 159M641 111C741 76 841 84 916 107M636 156C737 191 839 187 912 152"/>
+ <path class="field-map-accent" d="M369 103c19-2 37-2 57-1" marker-end="url(#field-map-arrow)"/>
+ <path class="field-map-accent" d="M427 181c-21 0-40-2-59-4" marker-end="url(#field-map-arrow)"/>
+ <path class="field-map-accent" d="M764 96c19 0 38 1 57 4" marker-end="url(#field-map-arrow)"/>
+ <path class="field-map-accent" d="M822 181c-20 2-39 2-58 1" marker-end="url(#field-map-arrow)"/>
+ <!-- One person, with a persistent inner state. -->
+ <circle cx="216" cy="130" r="70" class="field-map-orbit"/>
+ <circle cx="216" cy="130" r="45" fill="#dbe9d5"/>
+ <circle cx="216" cy="130" r="24" class="field-map-solid"/>
+ <path class="field-map-edge" d="M217 105l-17-31M239 136l41 11M205 151l-23 31"/>
+ <circle cx="198" cy="71" r="6" class="field-map-node"/>
+ <circle cx="285" cy="148" r="6" class="field-map-node"/>
+ <circle cx="178" cy="187" r="6" class="field-map-node"/>
+ <circle cx="216" cy="130" r="6" fill="#fbfcf8"/>
+ <!-- Mutual relations, with no privileged direction. -->
+ <circle cx="600" cy="130" r="82" class="field-map-orbit"/>
+ <path class="field-map-edge" d="M560 104Q600 71 640 104M640 104Q662 147 600 172M600 172Q541 149 560 104M560 104 600 172 640 104Z"/>
+ <path class="field-map-edge" d="M560 104 537 67M640 104 673 80M600 172 635 207M560 104 523 156M600 172 554 205M640 104 685 150"/>
+ <circle cx="560" cy="104" r="16" class="field-map-solid"/>
+ <circle cx="640" cy="104" r="16" class="field-map-solid"/>
+ <circle cx="600" cy="172" r="16" class="field-map-solid"/>
+ <circle cx="537" cy="67" r="5" class="field-map-node"/>
+ <circle cx="673" cy="80" r="5" class="field-map-node"/>
+ <circle cx="635" cy="207" r="5" class="field-map-node"/>
+ <circle cx="523" cy="156" r="5" class="field-map-node"/>
+ <circle cx="554" cy="205" r="5" class="field-map-node"/>
+ <circle cx="685" cy="150" r="5" class="field-map-node"/>
+ <!-- A population: local relationships and collective structure. -->
+ <circle cx="984" cy="130" r="103" class="field-map-orbit"/>
+ <circle cx="984" cy="130" r="77" fill="#dbe9d5" opacity=".55"/>
+<g class="field-map-edge">
+<path d="M984.0 130.0 1020.9 109.9"/>
+<path d="M984.0 130.0 995.4 170.4"/>
+<path d="M984.0 130.0 942.1 132.1"/>
+<path d="M984.0 130.0 991.2 88.6"/>
+<path d="M1020.9 109.9 1022.7 146.3"/>
+<path d="M1020.9 109.9 991.2 88.6"/>
+<path d="M1020.9 109.9 1062.3 96.9"/>
+<path d="M1020.9 109.9 1069.0 131.6"/>
+<path d="M1022.7 146.3 995.4 170.4"/>
+<path d="M1022.7 146.3 1061.0 166.0"/>
+<path d="M1022.7 146.3 1039.7 194.2"/>
+<path d="M995.4 170.4 959.5 164.1"/>
+<path d="M995.4 170.4 1008.7 211.3"/>
+<path d="M995.4 170.4 973.5 214.4"/>
+<path d="M959.5 164.1 942.1 132.1"/>
+<path d="M959.5 164.1 940.1 202.8"/>
+<path d="M959.5 164.1 914.3 178.7"/>
+<path d="M942.1 132.1 956.2 98.5"/>
+<path d="M942.1 132.1 901.2 110.8"/>
+<path d="M942.1 132.1 916.2 78.7"/>
+<path d="M956.2 98.5 991.2 88.6"/>
+<path d="M956.2 98.5 942.9 55.6"/>
+<path d="M956.2 98.5 976.7 45.3"/>
+<path d="M991.2 88.6 1011.8 49.7"/>
+<path d="M991.2 88.6 1042.1 67.9"/>
+<path d="M1062.3 96.9 1069.0 131.6"/>
+<path d="M1062.3 96.9 1011.8 49.7"/>
+<path d="M1062.3 96.9 1042.1 67.9"/>
+<path d="M1069.0 131.6 1061.0 166.0"/>
+<path d="M1069.0 131.6 1039.7 194.2"/>
+<path d="M1061.0 166.0 1039.7 194.2"/>
+<path d="M1039.7 194.2 1008.7 211.3"/>
+<path d="M1008.7 211.3 973.5 214.4"/>
+<path d="M1008.7 211.3 940.1 202.8"/>
+<path d="M973.5 214.4 940.1 202.8"/>
+<path d="M940.1 202.8 914.3 178.7"/>
+<path d="M914.3 178.7 900.5 146.1"/>
+<path d="M914.3 178.7 901.2 110.8"/>
+<path d="M900.5 146.1 901.2 110.8"/>
+<path d="M901.2 110.8 916.2 78.7"/>
+<path d="M916.2 78.7 942.9 55.6"/>
+<path d="M916.2 78.7 976.7 45.3"/>
+<path d="M942.9 55.6 976.7 45.3"/>
+<path d="M976.7 45.3 1011.8 49.7"/>
+<path d="M1011.8 49.7 1042.1 67.9"/>
+</g>
+<circle cx="984.0" cy="130.0" r="7" class="field-map-solid"/>
+<circle cx="1020.9" cy="109.9" r="7" class="field-map-solid"/>
+<circle cx="1022.7" cy="146.3" r="7" class="field-map-solid"/>
+<circle cx="995.4" cy="170.4" r="7" class="field-map-solid"/>
+<circle cx="959.5" cy="164.1" r="7" class="field-map-solid"/>
+<circle cx="942.1" cy="132.1" r="7" class="field-map-solid"/>
+<circle cx="956.2" cy="98.5" r="7" class="field-map-solid"/>
+<circle cx="991.2" cy="88.6" r="7" class="field-map-solid"/>
+<circle cx="1062.3" cy="96.9" r="4.8" class="field-map-node"/>
+<circle cx="1069.0" cy="131.6" r="4.8" class="field-map-node"/>
+<circle cx="1061.0" cy="166.0" r="4.8" class="field-map-node"/>
+<circle cx="1039.7" cy="194.2" r="4.8" class="field-map-node"/>
+<circle cx="1008.7" cy="211.3" r="4.8" class="field-map-node"/>
+<circle cx="973.5" cy="214.4" r="4.8" class="field-map-node"/>
+<circle cx="940.1" cy="202.8" r="4.8" class="field-map-node"/>
+<circle cx="914.3" cy="178.7" r="4.8" class="field-map-node"/>
+<circle cx="900.5" cy="146.1" r="4.8" class="field-map-node"/>
+<circle cx="901.2" cy="110.8" r="4.8" class="field-map-node"/>
+<circle cx="916.2" cy="78.7" r="4.8" class="field-map-node"/>
+<circle cx="942.9" cy="55.6" r="4.8" class="field-map-node"/>
+<circle cx="976.7" cy="45.3" r="4.8" class="field-map-node"/>
+<circle cx="1011.8" cy="49.7" r="4.8" class="field-map-node"/>
+<circle cx="1042.1" cy="67.9" r="4.8" class="field-map-node"/>
+</g>
+ <g text-anchor="middle">
+ <text x="216" y="281" class="field-map-label">Individuals</text>
+ <text x="600" y="281" class="field-map-label">Interactions</text>
+ <text x="984" y="281" class="field-map-label">Societies</text>
+ <text x="216" y="318" class="field-map-copy">Beliefs &amp; decisions</text>
+ <text x="600" y="318" class="field-map-copy">Relations &amp; coordination</text>
+ <text x="984" y="318" class="field-map-copy">Collective patterns</text>
+ </g>
+ <!-- A shared foundation connects the research loop to every level. -->
+ <g class="field-map-line" aria-hidden="true">
+ <path d="M216 340v12q0 9 9 9h750q9 0 9-9v-12M600 340v66"/>
+ </g>
+ <circle cx="600" cy="361" r="3" fill="#287044"/>
+ <g text-anchor="middle">
+ <text x="195" y="415" class="field-map-step">Human evidence</text>
+ <text x="475" y="415" class="field-map-step">Model</text>
+ <text x="735" y="415" class="field-map-step">Simulate</text>
+ <text x="995" y="415" class="field-map-step">Evaluate</text>
+ </g>
+ <g class="field-map-accent" aria-hidden="true" marker-end="url(#field-map-arrow)">
+ <path d="M322 406h83"/>
+ <path d="M535 406h112"/>
+ <path d="M822 406h85"/>
+ <path d="M995 435v18q0 22-22 22H497q-22 0-22-22v-18"/>
+ </g>
+ <rect x="680" y="457" width="110" height="34" class="field-map-paper"/>
+ <text x="735" y="484" text-anchor="middle" class="field-map-copy">Refine</text>
+ </g></g>
 </svg>

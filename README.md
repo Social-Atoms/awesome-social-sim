@@ -1,19 +1,19 @@
 # Awesome Social Simulation [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-<a href="https://social-atoms.github.io/awesome-social-sim/">
+<a href="https://awesome.social-atoms.org/">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="docs/assets/readme-hero-dark.svg">
-    <img src="docs/assets/readme-hero.svg" alt="Awesome Social Simulation by Social Atoms. A research collection connecting individual behavior, social interaction, and collective dynamics." width="1200">
+    <img src="docs/assets/readme-hero.svg" alt="Awesome Social Simulation by Social Atoms. One map connects individuals, interactions, and societies with a shared cycle of human evidence, modeling, simulation, and evaluation." width="1200">
   </picture>
 </a>
 
-A curated reading list on **LLM-based simulation of human behavior and social interaction**. Each entry explains why the paper belongs, with links to its publication and supporting resources.
+A curated reading list on **simulating people and societies with language models**.
 
 **[Browse the website](https://awesome.social-atoms.org/)** · [Suggest a paper](https://github.com/Social-Atoms/awesome-social-sim/issues/new?template=paper-suggestion.yml) · [Report a correction](https://github.com/Social-Atoms/awesome-social-sim/issues/new?template=correction.yml)
 
 The website supports search, topic and year filters, and shareable views. The same collection is available below as Markdown; a paper can appear in more than one topic.
 
-New to the field? The [illustrated field guide](https://social-atoms.github.io/awesome-social-sim/#field-guide) connects individual behavior, social interaction, and collective dynamics, alongside a diagram of the research and validation loop. Both diagrams are downloadable SVGs with background reading; the landscape map links directly to related papers.
+The [field map](https://awesome.social-atoms.org/#field-guide) connects individuals, interactions, and societies with a shared cycle of human evidence, modeling, simulation, and evaluation. Download the SVG or follow its background readings on the website.
 
 <!-- catalogue:start -->
 
