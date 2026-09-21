@@ -1,5 +1,12 @@
 # Awesome Social Simulation
 
+<a href="https://social-atoms.github.io/awesome-social-sim/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/assets/readme-hero-dark.svg">
+    <img src="docs/assets/readme-hero.svg" alt="Awesome Social Simulation by Social Atoms. A research collection connecting individual behavior, social interaction, and collective dynamics." width="1200">
+  </picture>
+</a>
+
 A curated reading list on **LLM-based simulation of human behavior and social interaction**. Each entry explains why the paper belongs, with links to its publication and supporting resources.
 
 **[Browse the website](https://social-atoms.github.io/awesome-social-sim/)** · [Suggest a paper](https://github.com/Social-Atoms/awesome-social-sim/issues/new?template=paper-suggestion.yml) · [Contribute](CONTRIBUTING.md)
