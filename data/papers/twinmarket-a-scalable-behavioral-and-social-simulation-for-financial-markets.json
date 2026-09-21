@@ -1,0 +1,14 @@
+{
+  "id": "twinmarket-a-scalable-behavioral-and-social-simulation-for-financial-markets",
+  "title": "TwinMarket: A Scalable Behavioral and Social Simulation for Financial Markets",
+  "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5bf234ecf83cd77bc5b77a24ba9338b0-Abstract-Conference.html",
+  "venue": "NeurIPS 2025",
+  "year": 2025,
+  "tags": [
+    "multi-agent"
+  ],
+  "notes": {
+    "multi-agent": "Simulates interactions among market agents and resulting collective financial dynamics."
+  },
+  "primaryTopic": "multi-agent"
+}

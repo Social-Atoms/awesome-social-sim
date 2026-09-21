@@ -1,0 +1,16 @@
+{
+  "id": "social-simulacra-creating-populated-prototypes-for-social-computing-systems",
+  "title": "Social Simulacra: Creating Populated Prototypes for Social Computing Systems",
+  "url": "https://doi.org/10.1145/3526113.3545616",
+  "venue": "UIST 2022",
+  "year": 2022,
+  "tags": [
+    "evaluation",
+    "multi-agent"
+  ],
+  "notes": {
+    "evaluation": "Evaluates whether generated online communities and interactions resemble real community behavior and support design exploration.",
+    "multi-agent": "Generates populated online communities with diverse member personas, posts, replies, and social interventions."
+  },
+  "primaryTopic": "multi-agent"
+}

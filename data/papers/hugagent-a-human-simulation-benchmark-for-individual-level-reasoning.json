@@ -1,0 +1,65 @@
+{
+  "id": "hugagent-a-human-simulation-benchmark-for-individual-level-reasoning",
+  "title": "HugAgent: A Human Simulation Benchmark for Individual-Level Reasoning",
+  "url": "https://arxiv.org/pdf/2510.15144",
+  "venue": "EMNLP 2026 Main · Accepted",
+  "year": 2026,
+  "kind": "Benchmark",
+  "primaryTopic": "evaluation",
+  "tags": [
+    "evaluation",
+    "silicon-participants"
+  ],
+  "notes": {
+    "evaluation": "Benchmarks whether models can recover a person’s beliefs and predict belief updates under intervention, using questionnaires and think-aloud interviews across three policy domains.",
+    "silicon-participants": "Tests individual-level reasoning simulation using human participants’ self-reported beliefs and reasoning traces, rather than population-level averages."
+  },
+  "authors": [
+    "Chance Jiajie Li",
+    "Zhenze Mo",
+    "Yuhan Tang",
+    "Ao Qu",
+    "Jiayi Wu",
+    "Kaiya Ivy Zhao",
+    "Yulu Gan",
+    "Jie Fan",
+    "Jiangbo Yu",
+    "Hang Jiang",
+    "Paul Pu Liang",
+    "Jinhua Zhao",
+    "Luis Alberto Alonso Pastor",
+    "Kent Larson"
+  ],
+  "equalContributors": 3,
+  "publicationHistory": "Accepted to EMNLP 2026 Main. Earlier presentations: NeurIPS 2025 workshops — PersonaLLM (Oral) and LAW (Spotlight).",
+  "historySource": "https://cjj.li/research/",
+  "resources": [
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/pdf/2510.15144"
+    },
+    {
+      "label": "Project",
+      "url": "https://jajamoa.github.io/HugAgent/"
+    },
+    {
+      "label": "Benchmark",
+      "url": "https://github.com/jajamoa/HugAgent"
+    },
+    {
+      "label": "Chatbot",
+      "url": "https://github.com/jajamoa/trace-your-thinking"
+    }
+  ],
+  "provenance": {
+    "addedAt": "2026-09-21",
+    "source": "Publication and resource metadata verified against the linked sources.",
+    "authorSource": "https://cjj.li/research/",
+    "publicationSource": "https://arxiv.org/abs/2510.15144",
+    "workshopSources": [
+      "https://cjj.li/research/",
+      "https://neurips.cc/virtual/2025/136261"
+    ],
+    "descriptionSource": "https://arxiv.org/abs/2510.15144"
+  }
+}

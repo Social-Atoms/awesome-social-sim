@@ -1,0 +1,16 @@
+{
+  "id": "whose-opinions-do-language-models-reflect",
+  "title": "Whose Opinions Do Language Models Reflect?",
+  "url": "https://proceedings.mlr.press/v202/santurkar23a.html",
+  "venue": "ICML 2023",
+  "year": 2023,
+  "tags": [
+    "evaluation",
+    "silicon-participants"
+  ],
+  "notes": {
+    "evaluation": "Compares language-model opinion distributions with public-opinion surveys across 60 demographic groups.",
+    "silicon-participants": "Measures how well model responses represent opinion distributions across demographic groups."
+  },
+  "primaryTopic": "evaluation"
+}

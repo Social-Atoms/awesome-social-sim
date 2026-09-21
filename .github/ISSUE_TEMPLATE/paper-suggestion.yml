@@ -1,0 +1,64 @@
+name: Suggest a paper
+description: Propose a published or accepted paper for the collection. No code changes needed.
+title: "[Paper] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve the collection. Please check for duplicates and read the [selection criteria](https://github.com/Social-Atoms/awesome-social-sim/blob/main/CONTRIBUTING.md#what-we-include). We include research and benchmarks on simulated human behavior and social interaction, plus selected position papers. Standalone preprints and workshop-only papers are outside the current scope.
+  - type: input
+    id: title
+    attributes:
+      label: Paper title
+      placeholder: Full title as published
+    validations:
+      required: true
+  - type: input
+    id: paper_url
+    attributes:
+      label: Paper URL
+      description: Prefer the proceedings or publisher page. For accepted work awaiting proceedings, a preprint link is fine.
+      placeholder: https://...
+    validations:
+      required: true
+  - type: input
+    id: venue
+    attributes:
+      label: Venue, year, and publication status
+      description: Name the main conference track or journal. Clearly identify accepted work and position tracks.
+      placeholder: EMNLP 2023 — published
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Publication or acceptance evidence
+      description: Link a source that explicitly confirms the venue and status. You can repeat the paper URL if the proceedings page establishes both.
+    validations:
+      required: true
+  - type: dropdown
+    id: topics
+    attributes:
+      label: Relevant topics
+      description: Select the topics supported by the paper's main contribution.
+      multiple: true
+      options:
+        - Control and calibration
+        - Evaluation
+        - Silicon participants
+        - Social science experiments
+        - Multi-agent interaction
+    validations:
+      required: true
+  - type: textarea
+    id: contribution
+    attributes:
+      label: Why does this paper belong?
+      description: In one or two sentences, describe the simulated behavior, method, or evaluation and how it fits the topics you selected.
+    validations:
+      required: true
+  - type: textarea
+    id: resources
+    attributes:
+      label: Additional resources or context
+      description: Optional project, code, benchmark, or data links. Include sources for any awards or earlier workshop appearances you mention.

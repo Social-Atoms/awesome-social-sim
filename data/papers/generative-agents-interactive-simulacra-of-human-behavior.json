@@ -1,0 +1,14 @@
+{
+  "id": "generative-agents-interactive-simulacra-of-human-behavior",
+  "title": "Generative Agents: Interactive Simulacra of Human Behavior",
+  "url": "https://doi.org/10.1145/3586183.3606763",
+  "venue": "UIST 2023 (Best Paper)",
+  "year": 2023,
+  "tags": [
+    "multi-agent"
+  ],
+  "notes": {
+    "multi-agent": "Builds an interactive town where agents remember, plan, and develop social interactions."
+  },
+  "primaryTopic": "multi-agent"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "cooperate-or-collapse-emergence-of-sustainable-cooperation-in-a-society-of-llm-agents",
+  "title": "Cooperate or Collapse: Emergence of Sustainable Cooperation in a Society of LLM Agents",
+  "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/ca9567d8ef6b2ea2da0d7eed57b933ee-Abstract-Conference.html",
+  "venue": "NeurIPS 2024",
+  "year": 2024,
+  "tags": [
+    "multi-agent",
+    "social-experiments"
+  ],
+  "notes": {
+    "multi-agent": "Uses a common-resource simulation to study cooperation and sustainability among agents.",
+    "social-experiments": "Uses a common-resource simulation to study cooperation and sustainability among agents."
+  },
+  "primaryTopic": "multi-agent"
+}

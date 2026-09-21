@@ -1,0 +1,51 @@
+{
+  "id": "simulating-society-requires-simulating-thought",
+  "title": "Simulating Society Requires Simulating Thought",
+  "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/abdf9f11e8d8206f5db7dce6b34cd292-Abstract-Position_Paper_Track.html",
+  "venue": "NeurIPS 2025 · Position Track",
+  "year": 2025,
+  "kind": "Position paper",
+  "primaryTopic": "control-calibration",
+  "tags": [
+    "control-calibration",
+    "evaluation"
+  ],
+  "notes": {
+    "control-calibration": "Proposes GenMinds: cognitively grounded agents with structured, revisable beliefs and traceable reasoning for social simulation.",
+    "evaluation": "Proposes RECAP to evaluate reasoning fidelity through causal traceability, demographic grounding, and intervention consistency."
+  },
+  "authors": [
+    "Chance Jiajie Li",
+    "Jiayi Wu",
+    "Zhenze Mo",
+    "Ao Qu",
+    "Yuhan Tang",
+    "Kaiya Ivy Zhao",
+    "Yulu Gan",
+    "Jie Fan",
+    "Jiangbo Yu",
+    "Jinhua Zhao",
+    "Paul Liang",
+    "Luis Alonso",
+    "Kent Larson"
+  ],
+  "equalContributors": 2,
+  "publicationHistory": "Published in the NeurIPS 2025 Position Paper Track.",
+  "resources": [
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/pdf/2506.06958"
+    },
+    {
+      "label": "Project",
+      "url": "https://jajamoa.github.io/SimThought/"
+    }
+  ],
+  "provenance": {
+    "addedAt": "2026-09-21",
+    "source": "Publication and resource metadata verified against the linked sources.",
+    "authorSource": "https://cjj.li/research/",
+    "publicationSource": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/abdf9f11e8d8206f5db7dce6b34cd292-Abstract-Position_Paper_Track.html",
+    "descriptionSource": "https://arxiv.org/abs/2506.06958"
+  }
+}

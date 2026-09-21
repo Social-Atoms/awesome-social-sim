@@ -1,0 +1,16 @@
+{
+  "id": "exploring-prosocial-irrationality-for-llm-agents-a-social-cognition-view",
+  "title": "Exploring Prosocial Irrationality for LLM Agents: A Social Cognition View",
+  "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/65b4e84b66ed049f8066919a803e3942-Abstract-Conference.html",
+  "venue": "ICLR 2025",
+  "year": 2025,
+  "tags": [
+    "multi-agent",
+    "social-experiments"
+  ],
+  "notes": {
+    "multi-agent": "Uses CogMir to examine cognitive biases and prosocial decisions in multi-agent experimental settings.",
+    "social-experiments": "Uses CogMir to examine cognitive biases and prosocial decisions in multi-agent experimental settings."
+  },
+  "primaryTopic": "social-experiments"
+}
