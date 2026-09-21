@@ -160,8 +160,11 @@ class CatalogueTests(unittest.TestCase):
         self.run_build()
         readme = (self.root / 'README.md').read_text()
         self.assertIn('**2 papers · 2 topics.**', readme)
-        self.assertIn('| Human-grounded checks. | 2 |', readme)
-        self.assertIn('| Agents interact. | 1 |', readme)
+        # Table cells are padded so the pipes align, which awesome-lint requires;
+        # compare on the squeezed text so the assertion is about content, not spacing.
+        squeezed = re.sub(r' {2,}', ' ', readme)
+        self.assertIn('| Human-grounded checks. | 2 |', squeezed)
+        self.assertIn('| Agents interact. | 1 |', squeezed)
         self.assertIn('2 papers, newest first.', (self.root / 'tags/evaluation.md').read_text())
         self.assertIn('1 paper, newest first.', (self.root / 'tags/multi-agent.md').read_text())
         page = (self.root / 'dist/index.html').read_text()
