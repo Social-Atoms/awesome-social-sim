@@ -1,18 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" class="field-map-svg" role="group" aria-labelledby="field-map-title" aria-describedby="field-map-desc">
- <title id="field-map-title">Explore social simulation by topic</title>
- <desc id="field-map-desc">Individuals, interactions, and societies are connected scales of social simulation. Choose one of five reading entry points: silicon participants, social science experiments, multi-agent interaction, control and calibration, or evaluation. Human evidence grounds work across every scale.</desc>
-
-<defs><style>
- .field-map-svg{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
- .field-map-paper{fill:#faf9f6}.field-map-ink{fill:#252723}.field-map-muted{fill:#6d6c65}
- .field-map-line{fill:none;stroke:#d4d5cd;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
- .field-map-orbit{fill:none;stroke:#ddddd6;stroke-width:1.5}
- .field-map-edge{fill:none;stroke:#aeb2aa;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
- .field-map-accent{fill:none;stroke:#808779;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
- .field-map-node{fill:#faf9f6;stroke:#808779;stroke-width:1.8}
- .field-map-solid{fill:#81897d;stroke:#faf9f6;stroke-width:2.2}
- .field-map-key{fill:#5d7968}
- /* Keep type steady across states; only the artwork and marker move. */
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" class="field-map-svg" role="group" aria-labelledby="field-map-title" aria-describedby="field-map-desc">
+ <title id="field-map-title">A map of social simulation</title>
+ <desc id="field-map-desc">Individuals, interactions, and societies are connected scales of social simulation. Choose Silicon participants, Social science experiments, or Multi-agent interaction to filter papers. A shared research cycle connects human evidence, modeling, simulation, and evaluation; calibration feeds back into the model. Evaluate and Calibrate open the Evaluation and Control and calibration topics.</desc>
+ <defs><style>
+ .field-map-paper{fill:#fbfcf8}.field-map-ink{fill:#18281f}.field-map-muted{fill:#536257}
+ .field-map-line{fill:none;stroke:#c9d8c7;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+ .field-map-orbit{fill:none;stroke:#dce8d8;stroke-width:1.5}
+ .field-map-edge{fill:none;stroke:#9cbaa0;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+ .field-map-accent{fill:none;stroke:#287044;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+ .field-map-node{fill:#fbfcf8;stroke:#287044;stroke-width:1.8}
+ .field-map-solid{fill:#287044;stroke:#fbfcf8;stroke-width:2.2}
+ .field-map-label{fill:#18281f;font-size:35px;font-weight:600;letter-spacing:-.8px}
+ .field-map-copy{fill:#536257;font-size:26px;letter-spacing:-.4px}
+ .field-map-step{fill:#18281f;font-size:28px;font-weight:500;letter-spacing:-.4px}
+ .field-map-text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+  /* Keep type steady across states; only the artwork and marker move. */
  .field-map-label{fill:#30332e;font-size:26px;font-weight:500;letter-spacing:-.45px}
  .field-map-topic{fill:#666b62;font-size:19px;letter-spacing:-.15px}
  .field-map-cue{fill:#6d6c65;font-size:19px;letter-spacing:-.15px}
@@ -41,173 +42,163 @@
   .field-map-svg .field-topic-link:focus-visible .field-map-hit{stroke:Highlight}
   .field-map-svg .field-topic-link[aria-current="true"] .field-map-underline{stroke:Highlight;stroke-width:3}
  }
+ .field-map-step{fill:#536257;font-size:20px;font-weight:400;letter-spacing:-.15px}
  </style>
- <marker id="field-map-arrow" viewBox="0 0 6 6" refX="3" refY="3" markerWidth="6" markerHeight="6" markerUnits="userSpaceOnUse" orient="auto"><path d="M1 1L3 3L1 5" fill="none" stroke="#92998d" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></marker>
- </defs>
-<rect width="1200" height="340" class="field-map-paper"/>
-<g aria-hidden="true">
- <ellipse cx="600" cy="103" rx="514" ry="84" fill="#f4f3ef"/>
- <!-- Each bidirectional lane has its own continuous curve and tangent-aligned arrow. -->
- <g class="field-map-edge" marker-mid="url(#field-map-arrow)">
-  <path d="M280 88Q342 64 404 64T528 88"/>
-  <path d="M528 120Q466 144 404 144T280 120"/>
-  <path d="M674 88Q730 64 786 64T898 88"/>
-  <path d="M898 120Q842 144 786 144T674 120"/>
+ <marker id="field-map-arrow" viewBox="0 0 8 8" refX="6" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="m2 1 3 3-3 3" fill="none" stroke="#287044" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+ <rect width="1200" height="520" class="field-map-paper"/>
+ <g transform="translate(0 14)"><g class="field-map-text">
+ <g aria-hidden="true">
+ <ellipse cx="600" cy="128" rx="522" ry="119" fill="#f0f5ec"/>
+ <path class="field-map-orbit" d="M204 59C402-14 798-14 996 59M204 207C402 268 798 268 996 207"/>
+ <path class="field-map-accent" d="M518 19c54-4 111-4 165 0" marker-start="url(#field-map-arrow)" marker-end="url(#field-map-arrow)" opacity=".6"/>
+ <path class="field-map-edge" d="M246 125C347 87 436 84 551 112M248 144C350 178 455 191 570 159M641 111C741 76 841 84 916 107M636 156C737 191 839 187 912 152"/>
+ <path class="field-map-accent" d="M369 103c19-2 37-2 57-1" marker-end="url(#field-map-arrow)"/>
+ <path class="field-map-accent" d="M427 181c-21 0-40-2-59-4" marker-end="url(#field-map-arrow)"/>
+ <path class="field-map-accent" d="M764 96c19 0 38 1 57 4" marker-end="url(#field-map-arrow)"/>
+ <path class="field-map-accent" d="M822 181c-20 2-39 2-58 1" marker-end="url(#field-map-arrow)"/>
+
+</g>
+<a class="field-topic-link field-map-scale" data-topic="silicon-participants" href="https://awesome.social-atoms.org/?topic=silicon-participants#papers" aria-label="Individuals — Browse Silicon participants papers" tabindex="0">
+ <rect x="58" y="24" width="316" height="307" rx="10" class="field-map-hit"/>
+ <g aria-hidden="true" class="field-map-art"> <!-- One person, with a persistent inner state. -->
+ <circle cx="216" cy="130" r="70" class="field-map-orbit"/>
+ <circle cx="216" cy="130" r="45" fill="#dbe9d5"/>
+ <circle cx="216" cy="130" r="24" class="field-map-solid"/>
+ <path class="field-map-edge" d="M217 105l-17-31M239 136l41 11M205 151l-23 31"/>
+ <circle cx="198" cy="71" r="6" class="field-map-node"/>
+ <circle cx="285" cy="148" r="6" class="field-map-node"/>
+ <circle cx="178" cy="187" r="6" class="field-map-node"/>
+ <circle cx="216" cy="130" r="6" fill="#fbfcf8"/>
+</g>
+ <text x="216" y="281" text-anchor="middle" class="field-map-label">Individuals</text>
+ <text x="216" y="318" text-anchor="middle" class="field-map-topic">Silicon participants</text>
+ <path d="M192 327h48" class="field-map-underline"/>
+</a>
+<a class="field-topic-link field-map-scale" data-topic="social-experiments" href="https://awesome.social-atoms.org/?topic=social-experiments#papers" aria-label="Interactions — Browse Social science experiments papers" tabindex="0">
+ <rect x="442" y="24" width="316" height="307" rx="10" class="field-map-hit"/>
+ <g aria-hidden="true" class="field-map-art"> <!-- Mutual relations, with no privileged direction. -->
+ <circle cx="600" cy="130" r="82" class="field-map-orbit"/>
+ <path class="field-map-edge" d="M560 104Q600 71 640 104M640 104Q662 147 600 172M600 172Q541 149 560 104M560 104 600 172 640 104Z"/>
+ <path class="field-map-edge" d="M560 104 537 67M640 104 673 80M600 172 635 207M560 104 523 156M600 172 554 205M640 104 685 150"/>
+ <circle cx="560" cy="104" r="16" class="field-map-solid"/>
+ <circle cx="640" cy="104" r="16" class="field-map-solid"/>
+ <circle cx="600" cy="172" r="16" class="field-map-solid"/>
+ <circle cx="537" cy="67" r="5" class="field-map-node"/>
+ <circle cx="673" cy="80" r="5" class="field-map-node"/>
+ <circle cx="635" cy="207" r="5" class="field-map-node"/>
+ <circle cx="523" cy="156" r="5" class="field-map-node"/>
+ <circle cx="554" cy="205" r="5" class="field-map-node"/>
+ <circle cx="685" cy="150" r="5" class="field-map-node"/>
+</g>
+ <text x="600" y="281" text-anchor="middle" class="field-map-label">Interactions</text>
+ <text x="600" y="318" text-anchor="middle" class="field-map-topic">Social science experiments</text>
+ <path d="M576 327h48" class="field-map-underline"/>
+</a>
+<a class="field-topic-link field-map-scale" data-topic="multi-agent" href="https://awesome.social-atoms.org/?topic=multi-agent#papers" aria-label="Societies — Browse Multi-agent interaction papers" tabindex="0">
+ <rect x="826" y="12" width="316" height="319" rx="10" class="field-map-hit"/>
+ <g aria-hidden="true" class="field-map-art"> <!-- A population: local relationships and collective structure. -->
+ <circle cx="984" cy="130" r="103" class="field-map-orbit"/>
+ <circle cx="984" cy="130" r="77" fill="#dbe9d5" opacity=".55"/>
+<g class="field-map-edge">
+<path d="M984.0 130.0 1020.9 109.9"/>
+<path d="M984.0 130.0 995.4 170.4"/>
+<path d="M984.0 130.0 942.1 132.1"/>
+<path d="M984.0 130.0 991.2 88.6"/>
+<path d="M1020.9 109.9 1022.7 146.3"/>
+<path d="M1020.9 109.9 991.2 88.6"/>
+<path d="M1020.9 109.9 1062.3 96.9"/>
+<path d="M1020.9 109.9 1069.0 131.6"/>
+<path d="M1022.7 146.3 995.4 170.4"/>
+<path d="M1022.7 146.3 1061.0 166.0"/>
+<path d="M1022.7 146.3 1039.7 194.2"/>
+<path d="M995.4 170.4 959.5 164.1"/>
+<path d="M995.4 170.4 1008.7 211.3"/>
+<path d="M995.4 170.4 973.5 214.4"/>
+<path d="M959.5 164.1 942.1 132.1"/>
+<path d="M959.5 164.1 940.1 202.8"/>
+<path d="M959.5 164.1 914.3 178.7"/>
+<path d="M942.1 132.1 956.2 98.5"/>
+<path d="M942.1 132.1 901.2 110.8"/>
+<path d="M942.1 132.1 916.2 78.7"/>
+<path d="M956.2 98.5 991.2 88.6"/>
+<path d="M956.2 98.5 942.9 55.6"/>
+<path d="M956.2 98.5 976.7 45.3"/>
+<path d="M991.2 88.6 1011.8 49.7"/>
+<path d="M991.2 88.6 1042.1 67.9"/>
+<path d="M1062.3 96.9 1069.0 131.6"/>
+<path d="M1062.3 96.9 1011.8 49.7"/>
+<path d="M1062.3 96.9 1042.1 67.9"/>
+<path d="M1069.0 131.6 1061.0 166.0"/>
+<path d="M1069.0 131.6 1039.7 194.2"/>
+<path d="M1061.0 166.0 1039.7 194.2"/>
+<path d="M1039.7 194.2 1008.7 211.3"/>
+<path d="M1008.7 211.3 973.5 214.4"/>
+<path d="M1008.7 211.3 940.1 202.8"/>
+<path d="M973.5 214.4 940.1 202.8"/>
+<path d="M940.1 202.8 914.3 178.7"/>
+<path d="M914.3 178.7 900.5 146.1"/>
+<path d="M914.3 178.7 901.2 110.8"/>
+<path d="M900.5 146.1 901.2 110.8"/>
+<path d="M901.2 110.8 916.2 78.7"/>
+<path d="M916.2 78.7 942.9 55.6"/>
+<path d="M916.2 78.7 976.7 45.3"/>
+<path d="M942.9 55.6 976.7 45.3"/>
+<path d="M976.7 45.3 1011.8 49.7"/>
+<path d="M1011.8 49.7 1042.1 67.9"/>
+</g>
+<circle cx="984.0" cy="130.0" r="7" class="field-map-solid"/>
+<circle cx="1020.9" cy="109.9" r="7" class="field-map-solid"/>
+<circle cx="1022.7" cy="146.3" r="7" class="field-map-solid"/>
+<circle cx="995.4" cy="170.4" r="7" class="field-map-solid"/>
+<circle cx="959.5" cy="164.1" r="7" class="field-map-solid"/>
+<circle cx="942.1" cy="132.1" r="7" class="field-map-solid"/>
+<circle cx="956.2" cy="98.5" r="7" class="field-map-solid"/>
+<circle cx="991.2" cy="88.6" r="7" class="field-map-solid"/>
+<circle cx="1062.3" cy="96.9" r="4.8" class="field-map-node"/>
+<circle cx="1069.0" cy="131.6" r="4.8" class="field-map-node"/>
+<circle cx="1061.0" cy="166.0" r="4.8" class="field-map-node"/>
+<circle cx="1039.7" cy="194.2" r="4.8" class="field-map-node"/>
+<circle cx="1008.7" cy="211.3" r="4.8" class="field-map-node"/>
+<circle cx="973.5" cy="214.4" r="4.8" class="field-map-node"/>
+<circle cx="940.1" cy="202.8" r="4.8" class="field-map-node"/>
+<circle cx="914.3" cy="178.7" r="4.8" class="field-map-node"/>
+<circle cx="900.5" cy="146.1" r="4.8" class="field-map-node"/>
+<circle cx="901.2" cy="110.8" r="4.8" class="field-map-node"/>
+<circle cx="916.2" cy="78.7" r="4.8" class="field-map-node"/>
+<circle cx="942.9" cy="55.6" r="4.8" class="field-map-node"/>
+<circle cx="976.7" cy="45.3" r="4.8" class="field-map-node"/>
+<circle cx="1011.8" cy="49.7" r="4.8" class="field-map-node"/>
+<circle cx="1042.1" cy="67.9" r="4.8" class="field-map-node"/></g>
+ <text x="984" y="281" text-anchor="middle" class="field-map-label">Societies</text>
+ <text x="984" y="318" text-anchor="middle" class="field-map-topic">Multi-agent interaction</text>
+ <path d="M960 327h48" class="field-map-underline"/>
+</a>
+ <!-- A shared foundation connects the research loop to every level. -->
+ <g class="field-map-line" aria-hidden="true">
+ <path d="M216 340v12q0 9 9 9h750q9 0 9-9v-12M600 340v66"/>
  </g>
-</g>
-<a class="field-topic-link" data-topic="silicon-participants" href="https://awesome.social-atoms.org/?topic=silicon-participants#papers" aria-label="Individuals — Browse Silicon participants papers" tabindex="0">
-<rect x="42" y="14" width="348" height="236" rx="12" class="field-map-hit"/>
-<g aria-hidden="true" class="field-map-art"><g transform="translate(216 104) scale(0.71)">
-<!-- Perimeter-trimmed edges; node intersections are intentional graph junctions. -->
-<circle r="74" class="field-map-orbit"/>
-<circle r="45" fill="#e8e8e1"/>
-<g class="field-map-edge">
-<path d="M-8.551 -23.492L-17.443 -47.924"/>
-<path d="M24.62 4.341L50.225 8.856"/>
-<path d="M-16.07 19.151L-32.782 39.068"/>
-</g>
-<circle cx="0" cy="0" r="24" class="field-map-solid field-map-key"/>
-<circle cx="-19.837" cy="-54.502" r="6" class="field-map-node"/>
-<circle cx="57.119" cy="10.072" r="6" class="field-map-node"/>
-<circle cx="-37.282" cy="44.431" r="6" class="field-map-node"/>
-<circle r="6" fill="#faf9f6"/>
-</g></g>
-<text x="216" y="211" text-anchor="middle" class="field-map-label">Individuals</text>
-<text x="216" y="239" text-anchor="middle" class="field-map-topic">Silicon participants</text>
-<path d="M192 248h48" class="field-map-underline"/>
+ <circle cx="600" cy="361" r="3" fill="#287044"/>
+ <g text-anchor="middle">
+ <text x="195" y="415" class="field-map-step">Human evidence</text>
+ <text x="475" y="415" class="field-map-step">Model</text>
+ <text x="735" y="415" class="field-map-step">Simulate</text>
+ <a class="field-topic-link" data-topic="evaluation" href="https://awesome.social-atoms.org/?topic=evaluation#papers" aria-label="Evaluate — Browse Evaluation papers" tabindex="0">
+ <rect x="935" y="380" width="120" height="54" rx="8" class="field-map-hit"/>
+ <text x="995" y="415" class="field-map-topic">Evaluate</text>
+ <path d="M971 424h48" class="field-map-underline"/>
 </a>
-<a class="field-topic-link" data-topic="social-experiments" href="https://awesome.social-atoms.org/?topic=social-experiments#papers" aria-label="Interactions — Browse Social science experiments papers" tabindex="0">
-<rect x="426" y="14" width="348" height="236" rx="12" class="field-map-hit"/>
-<g aria-hidden="true" class="field-map-art"><g transform="translate(600 104) scale(0.76)">
-<!-- Perimeter-trimmed edges; node intersections are intentional graph junctions. -->
-<circle r="82" class="field-map-orbit"/>
-<g class="field-map-edge">
-<path d="M-17 -22L17 -22"/>
-<path d="M25.619 -7.21L8.381 23.21"/>
-<path d="M-8.381 23.21L-25.619 -7.21"/>
-<path d="M-50.031 -16.342L-62.342 -11.997"/>
-<path d="M-34 -39L-34 -54"/>
-<path d="M50.031 -16.342L62.342 -11.997"/>
-<path d="M34 -39L34 -54"/>
-<path d="M-13.6 48.2L-27.2 58.4"/>
-<path d="M13.6 48.2L27.2 58.4"/>
-</g>
-<circle cx="-34" cy="-22" r="16" class="field-map-solid field-map-key"/>
-<circle cx="34" cy="-22" r="16" class="field-map-solid field-map-key"/>
-<circle cx="0" cy="38" r="16" class="field-map-solid field-map-key"/>
-<circle cx="-68" cy="-10" r="5" class="field-map-node"/>
-<circle cx="-34" cy="-60" r="5" class="field-map-node"/>
-<circle cx="68" cy="-10" r="5" class="field-map-node"/>
-<circle cx="34" cy="-60" r="5" class="field-map-node"/>
-<circle cx="-32" cy="62" r="5" class="field-map-node"/>
-<circle cx="32" cy="62" r="5" class="field-map-node"/>
-</g></g>
-<text x="600" y="211" text-anchor="middle" class="field-map-label">Interactions</text>
-<text x="600" y="239" text-anchor="middle" class="field-map-topic">Social science experiments</text>
-<path d="M576 248h48" class="field-map-underline"/>
-</a>
-<a class="field-topic-link" data-topic="multi-agent" href="https://awesome.social-atoms.org/?topic=multi-agent#papers" aria-label="Societies — Browse Multi-agent interaction papers" tabindex="0">
-<rect x="810" y="14" width="348" height="236" rx="12" class="field-map-hit"/>
-<g aria-hidden="true" class="field-map-art"><g transform="translate(984 100) scale(0.72)">
-<!-- Perimeter-trimmed edges; node intersections are intentional graph junctions. -->
-<circle r="103" class="field-map-orbit"/>
-<circle r="77" fill="#e8e8e1" opacity=".55"/>
-<g class="field-map-edge">
-<path d="M0 -8L0 -34"/>
-<path d="M8 0L34 0"/>
-<path d="M0 8L0 34"/>
-<path d="M-8 0L-34 0"/>
-<path d="M7.391 -38.939L22.307 -32.76"/>
-<path d="M32.76 -22.307L38.939 -7.391"/>
-<path d="M38.939 7.391L32.76 22.307"/>
-<path d="M22.307 32.76L7.391 38.939"/>
-<path d="M-7.391 38.939L-22.307 32.76"/>
-<path d="M-32.76 22.307L-38.939 7.391"/>
-<path d="M-38.939 -7.391L-32.76 -22.307"/>
-<path d="M-22.307 -32.76L-7.391 -38.939"/>
-<path d="M5.689 -83.868L26.84 -79.661"/>
-<path d="M37.351 -75.307L55.282 -63.326"/>
-<path d="M63.326 -55.282L75.307 -37.351"/>
-<path d="M79.661 -26.84L83.868 -5.689"/>
-<path d="M83.868 5.689L79.661 26.84"/>
-<path d="M75.307 37.351L63.326 55.282"/>
-<path d="M55.282 63.326L37.351 75.307"/>
-<path d="M26.84 79.661L5.689 83.868"/>
-<path d="M-5.689 83.868L-26.84 79.661"/>
-<path d="M-37.351 75.307L-55.282 63.326"/>
-<path d="M-63.326 55.282L-75.307 37.351"/>
-<path d="M-79.661 26.84L-83.868 5.689"/>
-<path d="M-83.868 -5.689L-79.661 -26.84"/>
-<path d="M-75.307 -37.351L-63.326 -55.282"/>
-<path d="M-55.282 -63.326L-37.351 -75.307"/>
-<path d="M-26.84 -79.661L-5.689 -83.868"/>
-<path d="M-5.32 -47.975L-28.671 -74.198"/>
-<path d="M0 -50L0 -79.2"/>
-<path d="M5.32 -47.975L28.671 -74.198"/>
-<path d="M30.161 -37.685L32.193 -72.739"/>
-<path d="M35.355 -35.355L56.003 -56.003"/>
-<path d="M37.685 -30.161L72.739 -32.193"/>
-<path d="M47.975 -5.32L74.198 -28.671"/>
-<path d="M50 0L79.2 0"/>
-<path d="M47.975 5.32L74.198 28.671"/>
-<path d="M37.685 30.161L72.739 32.193"/>
-<path d="M35.355 35.355L56.003 56.003"/>
-<path d="M30.161 37.685L32.193 72.739"/>
-<path d="M5.32 47.975L28.671 74.198"/>
-<path d="M0 50L0 79.2"/>
-<path d="M-5.32 47.975L-28.671 74.198"/>
-<path d="M-30.161 37.685L-32.193 72.739"/>
-<path d="M-35.355 35.355L-56.003 56.003"/>
-<path d="M-37.685 30.161L-72.739 32.193"/>
-<path d="M-47.975 5.32L-74.198 28.671"/>
-<path d="M-50 0L-79.2 0"/>
-<path d="M-47.975 -5.32L-74.198 -28.671"/>
-<path d="M-37.685 -30.161L-72.739 -32.193"/>
-<path d="M-35.355 -35.355L-56.003 -56.003"/>
-<path d="M-30.161 -37.685L-32.193 -72.739"/>
-</g>
-<circle cx="0" cy="0" r="7" class="field-map-solid field-map-key"/>
-<circle cx="0" cy="-42" r="7" class="field-map-solid field-map-key"/>
-<circle cx="29.698" cy="-29.698" r="7" class="field-map-solid"/>
-<circle cx="42" cy="0" r="7" class="field-map-solid"/>
-<circle cx="29.698" cy="29.698" r="7" class="field-map-solid field-map-key"/>
-<circle cx="0" cy="42" r="7" class="field-map-solid"/>
-<circle cx="-29.698" cy="29.698" r="7" class="field-map-solid"/>
-<circle cx="-42" cy="0" r="7" class="field-map-solid field-map-key"/>
-<circle cx="-29.698" cy="-29.698" r="7" class="field-map-solid"/>
-<circle cx="0" cy="-85" r="4.8" class="field-map-node"/>
-<circle cx="32.528" cy="-78.53" r="4.8" class="field-map-node"/>
-<circle cx="60.104" cy="-60.104" r="4.8" class="field-map-node"/>
-<circle cx="78.53" cy="-32.528" r="4.8" class="field-map-node"/>
-<circle cx="85" cy="0" r="4.8" class="field-map-node"/>
-<circle cx="78.53" cy="32.528" r="4.8" class="field-map-node"/>
-<circle cx="60.104" cy="60.104" r="4.8" class="field-map-node"/>
-<circle cx="32.528" cy="78.53" r="4.8" class="field-map-node"/>
-<circle cx="0" cy="85" r="4.8" class="field-map-node"/>
-<circle cx="-32.528" cy="78.53" r="4.8" class="field-map-node"/>
-<circle cx="-60.104" cy="60.104" r="4.8" class="field-map-node"/>
-<circle cx="-78.53" cy="32.528" r="4.8" class="field-map-node"/>
-<circle cx="-85" cy="0" r="4.8" class="field-map-node"/>
-<circle cx="-78.53" cy="-32.528" r="4.8" class="field-map-node"/>
-<circle cx="-60.104" cy="-60.104" r="4.8" class="field-map-node"/>
-<circle cx="-32.528" cy="-78.53" r="4.8" class="field-map-node"/>
-</g></g>
-<text x="984" y="211" text-anchor="middle" class="field-map-label">Societies</text>
-<text x="984" y="239" text-anchor="middle" class="field-map-topic">Multi-agent interaction</text>
-<path d="M960 248h48" class="field-map-underline"/>
-</a>
-<g aria-hidden="true" class="field-map-line">
- <path d="M216 255v12q0 8 8 8h752q8 0 8-8v-12M600 255v31"/>
  </g>
- <text x="216" y="316" text-anchor="middle" class="field-map-cue">Human evidence</text>
-<a class="field-topic-link" data-topic="control-calibration" href="https://awesome.social-atoms.org/?topic=control-calibration#papers" aria-label="Browse Control and calibration papers" tabindex="0">
-<rect x="426.0" y="287" width="348" height="46" rx="12" class="field-map-hit"/>
-<text x="600" y="316" text-anchor="middle" class="field-map-topic">Control and calibration</text>
-<path d="M576 325h48" class="field-map-underline"/>
+ <g class="field-map-accent" aria-hidden="true" marker-end="url(#field-map-arrow)">
+ <path d="M322 406h83"/>
+ <path d="M535 406h112"/>
+ <path d="M822 406h85"/>
+ <path d="M995 435v18q0 22-22 22H497q-22 0-22-22v-18"/>
+ </g>
+ <rect x="676" y="457" width="118" height="38" class="field-map-paper"/>
+ <a class="field-topic-link" data-topic="control-calibration" href="https://awesome.social-atoms.org/?topic=control-calibration#papers" aria-label="Calibrate — Browse Control and calibration papers" tabindex="0">
+ <rect x="670" y="449" width="130" height="54" rx="8" class="field-map-hit"/>
+ <text x="735" y="484" text-anchor="middle" class="field-map-topic">Calibrate</text>
+ <path d="M711 493h48" class="field-map-underline"/>
 </a>
-<a class="field-topic-link" data-topic="evaluation" href="https://awesome.social-atoms.org/?topic=evaluation#papers" aria-label="Browse Evaluation papers" tabindex="0">
-<rect x="860.0" y="287" width="248" height="46" rx="12" class="field-map-hit"/>
-<text x="984" y="316" text-anchor="middle" class="field-map-topic">Evaluation</text>
-<path d="M960 325h48" class="field-map-underline"/>
-</a>
+ </g></g>
 </svg>
