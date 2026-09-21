@@ -1,0 +1,227 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="hero-title hero-desc">
+  <title id="hero-title">Awesome Social Simulation</title>
+  <desc id="hero-desc">A Social Atoms collection of research on language models, human behavior, and social interaction. An original network illustration grows from one individual through a small group of interacting agents into a connected society.</desc>
+  <defs>
+    <style>
+      .paper{fill:#fafbf7}.border{fill:none;stroke:#dce3d8}
+      .ink{fill:#19251d}.muted{fill:#626d60}.green{fill:#276740}
+      .guide{fill:none;stroke:#e2e8dc;stroke-width:1}
+      .orbit{fill:none;stroke:#dce6d5;stroke-width:1}
+      .edge{fill:none;stroke:#bfd0b6;stroke-width:1.15}
+      .bridge{fill:none;stroke:#93b28c;stroke-width:1.35}
+      .node{fill:#fafbf7;stroke:#799b70;stroke-width:1.2}
+      .node-strong{fill:#537d48;stroke:#fafbf7;stroke-width:1.5}
+      .cluster{fill:#e8f0df;stroke:#87a87b;stroke-width:1.2}
+      .nucleus{fill:#276740;stroke:#fafbf7;stroke-width:2}
+      .territory{fill:#edf3e6}
+      text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+    </style>
+  </defs>
+  <rect class="paper" width="1200" height="440" rx="8"/>
+  <rect class="border" x=".5" y=".5" width="1199" height="439" rx="7.5"/>
+
+  <!-- Social Atoms' original mark, scaled from its 512 × 512 source geometry. -->
+  <g transform="translate(52 42) scale(.0625)" aria-hidden="true">
+    <rect width="512" height="512" fill="#141416"/>
+    <g fill="#efece4" stroke="#141416" stroke-width="6">
+      <circle cx="256" cy="196" r="76"/>
+      <circle cx="200" cy="288" r="76"/>
+      <circle cx="312" cy="288" r="76"/>
+    </g>
+  </g>
+  <text class="ink" x="96" y="64" font-size="18" font-weight="600" letter-spacing="-.2">Social Atoms</text>
+  <path d="M226 48v20" class="border"/>
+  <text class="muted" x="241" y="63" font-size="12" letter-spacing="1.65">A CURATED RESEARCH COLLECTION</text>
+
+  <text class="ink" x="51" y="164" font-size="65" font-weight="650" letter-spacing="-2.5">
+    <tspan x="51">Awesome</tspan>
+    <tspan x="51" dy="75">Social Simulation</tspan>
+  </text>
+  <text class="muted" x="54" y="283" font-size="20" letter-spacing="-.15">Language models, human behavior,</text>
+  <text class="muted" x="54" y="313" font-size="20" letter-spacing="-.15">and collective dynamics.</text>
+
+  <!-- Scale is suggested through topology, without implying a causal model. -->
+  <g aria-hidden="true">
+    <path class="guide" d="M635 341H1150M1150 78v263"/>
+    <path class="guide" d="M655 337v8m120-8v8m120-8v8m120-8v8m-8-16h8m-8-120h8m-8-120h8"/>
+    <ellipse class="orbit" cx="1035" cy="203" rx="132" ry="125"/>
+    <ellipse class="orbit" cx="1035" cy="203" rx="151" ry="143" stroke-dasharray="2 7"/>
+    <circle class="territory" cx="1035" cy="203" r="112"/>
+    <path class="bridge" d="M688 269C729 269 738 232 789 232M690 257C741 233 744 187 819 187M846 225C888 225 903 262 946 260M844 191C887 191 892 128 941 139M861 227C901 226 930 198 967 204"/>
+    <path class="orbit" d="M697 257C754 316 824 322 913 289M755 139C815 102 880 90 936 111"/>
+    <g class="edge">
+    <path d="M1048.1 205.8 1043.0 179.3"/>
+    <path d="M1048.1 205.8 1047.9 229.4"/>
+    <path d="M1048.1 205.8 1070.9 190.7"/>
+    <path d="M1016.9 212.8 1003.0 190.4"/>
+    <path d="M1016.9 212.8 1015.8 237.7"/>
+    <path d="M1016.9 212.8 985.9 211.0"/>
+    <path d="M1043.0 179.3 1023.6 162.4"/>
+    <path d="M1043.0 179.3 1067.0 163.8"/>
+    <path d="M1047.9 229.4 1074.7 227.1"/>
+    <path d="M1047.9 229.4 1039.6 254.6"/>
+    <path d="M1003.0 190.4 985.9 211.0"/>
+    <path d="M1003.0 190.4 993.1 166.4"/>
+    <path d="M1070.9 190.7 1067.0 163.8"/>
+    <path d="M1070.9 190.7 1094.2 203.2"/>
+    <path d="M1015.8 237.7 1039.6 254.6"/>
+    <path d="M1015.8 237.7 989.6 242.1"/>
+    <path d="M1023.6 162.4 1040.8 143.2"/>
+    <path d="M1023.6 162.4 1001.7 141.7"/>
+    <path d="M1074.7 227.1 1074.6 252.2"/>
+    <path d="M1074.7 227.1 1104.9 227.4"/>
+    <path d="M985.9 211.0 968.8 191.7"/>
+    <path d="M985.9 211.0 964.4 230.3"/>
+    <path d="M1067.0 163.8 1093.5 168.1"/>
+    <path d="M1067.0 163.8 1068.3 136.3"/>
+    <path d="M1039.6 254.6 1016.3 267.8"/>
+    <path d="M1039.6 254.6 1058.5 274.9"/>
+    <path d="M993.1 166.4 1001.7 141.7"/>
+    <path d="M993.1 166.4 965.0 164.3"/>
+    <path d="M1094.2 203.2 1104.9 227.4"/>
+    <path d="M1094.2 203.2 1115.8 186.5"/>
+    <path d="M989.6 242.1 964.4 230.3"/>
+    <path d="M989.6 242.1 986.3 268.0"/>
+    <path d="M1040.8 143.2 1068.3 136.3"/>
+    <path d="M1040.8 143.2 1024.3 122.5"/>
+    <path d="M1040.8 143.2 1056.6 113.6"/>
+    <path d="M1074.6 252.2 1058.5 274.9"/>
+    <path d="M1074.6 252.2 1101.5 256.4"/>
+    <path d="M1074.6 252.2 1083.5 283.8"/>
+    <path d="M968.8 191.7 965.0 164.3"/>
+    <path d="M968.8 191.7 946.4 206.2"/>
+    <path d="M968.8 191.7 940.3 174.0"/>
+    <path d="M1093.5 168.1 1115.8 186.5"/>
+    <path d="M1093.5 168.1 1099.1 143.1"/>
+    <path d="M1093.5 168.1 1126.7 163.3"/>
+    <path d="M1016.3 267.8 986.3 268.0"/>
+    <path d="M1016.3 267.8 1030.4 289.5"/>
+    <path d="M1016.3 267.8 995.3 292.0"/>
+    <path d="M1001.7 141.7 1024.3 122.5"/>
+    <path d="M1001.7 141.7 975.7 135.3"/>
+    <path d="M1001.7 141.7 1000.4 110.9"/>
+    <path d="M1104.9 227.4 1101.5 256.4"/>
+    <path d="M1104.9 227.4 1128.4 215.2"/>
+    <path d="M1104.9 227.4 1127.4 249.3"/>
+    <path d="M964.4 230.3 946.4 206.2"/>
+    <path d="M964.4 230.3 956.3 254.4"/>
+    <path d="M964.4 230.3 932.6 228.2"/>
+    <path d="M1068.3 136.3 1099.1 143.1"/>
+    <path d="M1068.3 136.3 1056.6 113.6"/>
+    <path d="M1068.3 136.3 1093.2 118.0"/>
+    <path d="M1058.5 274.9 1030.4 289.5"/>
+    <path d="M1058.5 274.9 1083.5 283.8"/>
+    <path d="M1058.5 274.9 1052.9 304.0"/>
+    <path d="M965.0 164.3 975.7 135.3"/>
+    <path d="M965.0 164.3 940.3 174.0"/>
+    <path d="M965.0 164.3 948.8 139.3"/>
+    <path d="M1115.8 186.5 1128.4 215.2"/>
+    <path d="M1115.8 186.5 1126.7 163.3"/>
+    <path d="M1115.8 186.5 1145.2 194.7"/>
+    <path d="M986.3 268.0 956.3 254.4"/>
+    <path d="M986.3 268.0 995.3 292.0"/>
+    <path d="M986.3 268.0 958.9 280.3"/>
+    <path d="M1024.3 122.5 1056.6 113.6"/>
+    <path d="M1024.3 122.5 1000.4 110.9"/>
+    <path d="M1101.5 256.4 1083.5 283.8"/>
+    <path d="M1101.5 256.4 1127.4 249.3"/>
+    <path d="M946.4 206.2 940.3 174.0"/>
+    <path d="M946.4 206.2 932.6 228.2"/>
+    <path d="M1099.1 143.1 1126.7 163.3"/>
+    <path d="M1099.1 143.1 1093.2 118.0"/>
+    <path d="M1030.4 289.5 995.3 292.0"/>
+    <path d="M1030.4 289.5 1052.9 304.0"/>
+    <path d="M975.7 135.3 1000.4 110.9"/>
+    <path d="M975.7 135.3 948.8 139.3"/>
+    <path d="M1128.4 215.2 1127.4 249.3"/>
+    <path d="M1128.4 215.2 1145.2 194.7"/>
+    <path d="M956.3 254.4 932.6 228.2"/>
+    <path d="M956.3 254.4 958.9 280.3"/>
+    <path d="M1056.6 113.6 1093.2 118.0"/>
+    <path d="M1083.5 283.8 1052.9 304.0"/>
+    <path d="M940.3 174.0 948.8 139.3"/>
+    <path d="M1126.7 163.3 1145.2 194.7"/>
+    <path d="M995.3 292.0 958.9 280.3"/>
+    </g>
+    <circle class="node-strong" cx="1048.1" cy="205.8" r="4.5"/>
+    <circle class="node" cx="1016.9" cy="212.8" r="2.8"/>
+    <circle class="node" cx="1043.0" cy="179.3" r="2.8"/>
+    <circle class="node-strong" cx="1047.9" cy="229.4" r="4.5"/>
+    <circle class="node" cx="1003.0" cy="190.4" r="2.8"/>
+    <circle class="node" cx="1070.9" cy="190.7" r="2.8"/>
+    <circle class="node" cx="1015.8" cy="237.7" r="2.8"/>
+    <circle class="node" cx="1023.6" cy="162.4" r="2.8"/>
+    <circle class="node-strong" cx="1074.7" cy="227.1" r="4.5"/>
+    <circle class="node" cx="985.9" cy="211.0" r="2.8"/>
+    <circle class="node" cx="1067.0" cy="163.8" r="2.8"/>
+    <circle class="node" cx="1039.6" cy="254.6" r="2.8"/>
+    <circle class="node-strong" cx="993.1" cy="166.4" r="4.5"/>
+    <circle class="node" cx="1094.2" cy="203.2" r="2.8"/>
+    <circle class="node" cx="989.6" cy="242.1" r="2.8"/>
+    <circle class="node" cx="1040.8" cy="143.2" r="2.8"/>
+    <circle class="node" cx="1074.6" cy="252.2" r="2.8"/>
+    <circle class="node" cx="968.8" cy="191.7" r="2.8"/>
+    <circle class="node-strong" cx="1093.5" cy="168.1" r="4.5"/>
+    <circle class="node" cx="1016.3" cy="267.8" r="2.8"/>
+    <circle class="node" cx="1001.7" cy="141.7" r="2.8"/>
+    <circle class="node" cx="1104.9" cy="227.4" r="2.8"/>
+    <circle class="node" cx="964.4" cy="230.3" r="2.8"/>
+    <circle class="node" cx="1068.3" cy="136.3" r="2.8"/>
+    <circle class="node" cx="1058.5" cy="274.9" r="2.8"/>
+    <circle class="node" cx="965.0" cy="164.3" r="2.8"/>
+    <circle class="node-strong" cx="1115.8" cy="186.5" r="4.5"/>
+    <circle class="node" cx="986.3" cy="268.0" r="2.8"/>
+    <circle class="node" cx="1024.3" cy="122.5" r="2.8"/>
+    <circle class="node" cx="1101.5" cy="256.4" r="2.8"/>
+    <circle class="node" cx="946.4" cy="206.2" r="2.8"/>
+    <circle class="node" cx="1099.1" cy="143.1" r="2.8"/>
+    <circle class="node" cx="1030.4" cy="289.5" r="2.8"/>
+    <circle class="node" cx="975.7" cy="135.3" r="2.8"/>
+    <circle class="node" cx="1128.4" cy="215.2" r="2.8"/>
+    <circle class="node-strong" cx="956.3" cy="254.4" r="4.5"/>
+    <circle class="node" cx="1056.6" cy="113.6" r="2.8"/>
+    <circle class="node" cx="1083.5" cy="283.8" r="2.8"/>
+    <circle class="node" cx="940.3" cy="174.0" r="2.8"/>
+    <circle class="node" cx="1126.7" cy="163.3" r="2.8"/>
+    <circle class="node" cx="995.3" cy="292.0" r="2.8"/>
+    <circle class="node" cx="1000.4" cy="110.9" r="2.8"/>
+    <circle class="node" cx="1127.4" cy="249.3" r="2.8"/>
+    <circle class="node-strong" cx="932.6" cy="228.2" r="4.5"/>
+    <circle class="node" cx="1093.2" cy="118.0" r="2.8"/>
+    <circle class="node" cx="1052.9" cy="304.0" r="2.8"/>
+    <circle class="node" cx="948.8" cy="139.3" r="2.8"/>
+    <circle class="node" cx="1145.2" cy="194.7" r="2.8"/>
+    <circle class="node" cx="958.9" cy="280.3" r="2.8"/>
+
+    <!-- A triad echoes the brand while retaining three distinct agents. -->
+    <circle class="orbit" cx="820" cy="218" r="69"/>
+    <circle class="cluster" cx="820" cy="183" r="29"/>
+    <circle class="cluster" cx="792" cy="231" r="29"/>
+    <circle class="cluster" cx="848" cy="231" r="29"/>
+    <path class="bridge" d="m820 183-28 48h56z"/>
+    <circle class="nucleus" cx="820" cy="183" r="8"/>
+    <circle class="nucleus" cx="792" cy="231" r="8"/>
+    <circle class="nucleus" cx="848" cy="231" r="8"/>
+    <circle class="node" cx="769" cy="186" r="3"/>
+    <circle class="node" cx="864" cy="176" r="3"/>
+    <circle class="node" cx="820" cy="281" r="3"/>
+    <path class="edge" d="m769 186 23 45m72-55-16 55m-28 50-28-50m28 50 28-50"/>
+
+    <!-- One agent is the visual entry point into the larger social system. -->
+    <circle class="orbit" cx="674" cy="263" r="31"/>
+    <circle class="cluster" cx="674" cy="263" r="19"/>
+    <circle class="nucleus" cx="674" cy="263" r="8"/>
+    <path class="guide" d="M674 307v19m146-23v23m215-1v1"/>
+  </g>
+
+  <path class="border" d="M53 363H1147"/>
+  <text class="muted" x="54" y="402" font-size="12" letter-spacing="1.7">HUMAN BEHAVIOR, AT EVERY SCALE</text>
+  <g class="green" font-size="15" font-weight="500" letter-spacing=".2">
+    <text x="653" y="402">Individuals</text>
+    <text x="820" y="402">Interactions</text>
+    <text x="1000" y="402">Societies</text>
+  </g>
+  <g fill="none" stroke="#91a487" stroke-width="1.15" aria-hidden="true">
+    <path d="M771 396h18m-4-4 4 4-4 4M952 396h18m-4-4 4 4-4 4"/>
+  </g>
+</svg>
