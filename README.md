@@ -6,6 +6,8 @@ A curated reading list on **LLM-based simulation of human behavior and social in
 
 The website supports search, topic and year filters, and shareable views. The same collection is available below as Markdown; a paper can appear in more than one topic.
 
+New to the field? The [illustrated field guide](https://social-atoms.github.io/awesome-social-sim/#field-guide) connects individual behavior, social interaction, and collective dynamics, alongside a diagram of the research and validation loop. Both diagrams are downloadable SVGs with background reading; the landscape map links directly to related papers.
+
 <!-- catalogue:start -->
 
 ## Browse by topic

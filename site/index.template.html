@@ -21,6 +21,7 @@
         <span>Social Atoms <span class="divider">/</span> Research</span>
       </a>
       <nav aria-label="Main navigation">
+        <a href="#field-guide">Field guide</a>
         <a href="#about">About the list</a>
         <a class="repo-link" href="https://github.com/Social-Atoms/awesome-social-sim" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
       </nav>
@@ -45,8 +46,41 @@
         <a class="contribute-link" href="https://github.com/Social-Atoms/awesome-social-sim/issues/new?template=paper-suggestion.yml" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">+</span> Suggest a paper</a>
       </aside>
 
-      <main id="papers" tabindex="-1">
-        <section class="catalogue" aria-labelledby="collection-title">
+      <main>
+        <section id="field-guide" class="field-guide" aria-labelledby="field-guide-title">
+          <div class="guide-heading">
+            <div><p class="section-label">THE BIGGER PICTURE</p><h2 id="field-guide-title">A field guide to social simulation.</h2></div>
+            <a class="guide-skip" href="#papers">Go to papers <span aria-hidden="true">↓</span></a>
+          </div>
+          <p class="guide-intro">From individual decisions to collective behavior. Explore the questions, methods, and evidence that connect the field.</p>
+          <div class="guide-tabs" role="tablist" aria-label="Field guide diagrams" hidden>
+            <button type="button" id="landscape-tab" role="tab" aria-controls="landscape-panel" aria-selected="true">01 <span>The landscape</span></button>
+            <button type="button" id="research-loop-tab" role="tab" aria-controls="research-loop-panel" aria-selected="false" tabindex="-1">02 <span>The research loop</span></button>
+          </div>
+          <div id="landscape-panel" class="guide-panel" role="tabpanel" aria-labelledby="landscape-tab">
+            <figure class="guide-figure">
+              <div class="diagram-scroll" tabindex="0" role="region" aria-label="Field map; scroll horizontally on small screens">__FIELD_MAP__</div>
+              <figcaption><p>Individuals have beliefs and make decisions; interactions shape relationships; collective dynamics emerge through networks and institutions. Grounding, control, and evaluation connect all three scales.</p><div class="figure-tools"><span class="diagram-hint">Scroll to explore the full diagram <span aria-hidden="true">↔</span></span><span class="map-key"><i aria-hidden="true"></i> Green links browse the collection</span><a href="assets/field-map.svg" download>Download SVG <span aria-hidden="true">↓</span></a></div></figcaption>
+            </figure>
+          </div>
+          <div id="research-loop-panel" class="guide-panel" role="tabpanel" aria-labelledby="research-loop-tab">
+            <figure class="guide-figure">
+              <div class="diagram-scroll" tabindex="0" role="region" aria-label="Research loop; scroll horizontally on small screens">__RESEARCH_LOOP__</div>
+              <figcaption><p>Start with a research question and a target population. Specify agents and their environment, run controlled scenarios, then compare with human evidence. Revise assumptions and test again.</p><div class="figure-tools"><span class="diagram-hint">Scroll to explore the full diagram <span aria-hidden="true">↔</span></span><span>Evaluate the specific claims a simulation makes.</span><a href="assets/research-loop.svg" download>Download SVG <span aria-hidden="true">↓</span></a></div></figcaption>
+            </figure>
+          </div>
+          <details class="guide-reading">
+            <summary>About this map &amp; background reading <span aria-hidden="true">+</span></summary>
+            <div><p>These original diagrams offer an editorial view of LLM-based social simulation, informed by the readings below. The collection covers selected parts of this broader landscape. Population diversity, research ethics, and generalization matter across scales.</p>
+              <ol>
+                <li><a href="https://arxiv.org/abs/2412.03563" target="_blank" rel="noopener noreferrer">From Individual to Society</a><span>Mou et al. · 2024 · A survey across individual, scenario, and society-level simulation.</span></li>
+                <li><a href="https://www.nature.com/articles/s41599-024-03611-3" target="_blank" rel="noopener noreferrer">Large language models empowered agent-based modeling and simulation</a><span>Gao et al. · 2024 · Agents, environments, interactions, and their design challenges.</span></li>
+                <li><a href="https://link.springer.com/article/10.1007/s10462-025-11412-6" target="_blank" rel="noopener noreferrer">Validation is the central challenge for generative social simulation</a><span>Larooij &amp; Törnberg · 2026 · A critical review of validation and the claims simulations can support.</span></li>
+              </ol>
+            </div>
+          </details>
+        </section>
+        <section id="papers" class="catalogue" aria-labelledby="collection-title" tabindex="-1">
           <div class="collection-heading">
             <div><p class="section-label">THE COLLECTION</p><h2 id="collection-title">All papers</h2></div>
             <p id="result-count" class="result-count" role="status" aria-live="polite">__PAPER_COUNT__ papers</p>

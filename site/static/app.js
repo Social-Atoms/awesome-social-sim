@@ -38,7 +38,7 @@
       }
     }
     for (const paper of results) $('paper-list').append(rows.get(paper.id));
-    for (const link of document.querySelectorAll('.topic-link')) link.setAttribute('aria-current', String(link.dataset.topic === state.topic));
+    for (const link of document.querySelectorAll('.topic-link, .field-topic-link')) link.setAttribute('aria-current', String(link.dataset.topic === state.topic));
     $('collection-title').textContent = topicMap.get(state.topic)?.label || 'All papers';
     $('topic-description').textContent = topicMap.get(state.topic)?.description || 'Browse the full collection, or follow a topic.';
     $('result-count').textContent = `${results.length} ${results.length === 1 ? 'paper' : 'papers'}`;
@@ -56,9 +56,10 @@
     document.title = [topicMap.get(state.topic)?.label, 'Awesome Social Simulation', 'Social Atoms'].filter(Boolean).join(' — ');
     return results;
   }
-  function update(next, historyMode = 'replace') {
+  function update(next, historyMode = 'replace', anchor = null) {
     state = { ...state, ...next };
     const url = new URL(location.href);
+    if (anchor !== null) url.hash = anchor;
     for (const key of ['q', 'topic', 'year', 'sort']) {
       if (state[key] && !(key === 'sort' && state[key] === 'newest')) url.searchParams.set(key, state[key]);
       else url.searchParams.delete(key);
@@ -76,13 +77,37 @@
   $('clear-search').addEventListener('click', () => { update({ q: '' }); $('search').focus(); });
   $('reset').addEventListener('click', reset);
   $('empty-reset').addEventListener('click', () => { reset(); $('search').focus(); });
+  const guideTabs = [...document.querySelectorAll('.guide-tabs [role="tab"]')];
+  function selectGuideTab(selected) {
+    for (const tab of guideTabs) {
+      const active = tab === selected;
+      tab.setAttribute('aria-selected', String(active));
+      tab.tabIndex = active ? 0 : -1;
+      $(tab.getAttribute('aria-controls')).hidden = !active;
+    }
+  }
+  for (const [index, tab] of guideTabs.entries()) {
+    tab.addEventListener('click', () => selectGuideTab(tab));
+    tab.addEventListener('keydown', event => {
+      const target = { ArrowRight: (index + 1) % guideTabs.length, ArrowLeft: (index + guideTabs.length - 1) % guideTabs.length, Home: 0, End: guideTabs.length - 1 }[event.key];
+      if (target === undefined) return;
+      event.preventDefault();
+      selectGuideTab(guideTabs[target]);
+      guideTabs[target].focus();
+    });
+  }
+  if (guideTabs.length) {
+    selectGuideTab(guideTabs[0]);
+    document.querySelector('.guide-tabs').hidden = false;
+  }
   document.addEventListener('click', event => {
     const link = event.target.closest('a[data-topic]');
     if (!link || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
     event.preventDefault();
-    update({ topic: link.dataset.topic }, 'push');
+    const fromMap = link.classList.contains('field-topic-link');
+    update({ topic: link.dataset.topic, ...(fromMap ? { q: '', year: '' } : {}) }, 'push', 'papers');
     if (matchMedia('(max-width: 760px)').matches) disclosure.open = false;
-    if (link.classList.contains('paper-topic')) {
+    if (link.matches('.paper-topic, .topic-link, .field-topic-link')) {
       $('papers').scrollIntoView({ block: 'start' });
       $('collection-title').setAttribute('tabindex', '-1');
       $('collection-title').focus({ preventScroll: true });
