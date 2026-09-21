@@ -1,31 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="440" height="604" viewBox="0 0 440 604" class="field-mobile-svg" role="img" aria-labelledby="field-mobile-title field-mobile-desc">
- <title id="field-mobile-title">A map of social simulation</title>
- <desc id="field-mobile-desc">Individuals, interactions, and societies are connected levels of social simulation. Beliefs and decisions, relations and coordination, and collective patterns influence one another. Human evidence informs a shared cycle of modeling, simulation, evaluation, and refinement across every level.</desc>
- <defs>
-  <style>
-   .field-mobile-svg{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
-   .field-mobile-paper{fill:#faf9f6}.field-mobile-ink{fill:#252723}.field-mobile-muted{fill:#6d6c65}
-   .field-mobile-line{fill:none;stroke:#d4d5cd;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
-   .field-mobile-orbit{fill:none;stroke:#ddddd6;stroke-width:1.5}
-   .field-mobile-edge{fill:none;stroke:#aeb2aa;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
-   .field-mobile-accent{fill:none;stroke:#808779;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
-   .field-mobile-node{fill:#faf9f6;stroke:#808779;stroke-width:1.8}
-   .field-mobile-solid{fill:#81897d;stroke:#faf9f6;stroke-width:2.2}
-   .field-mobile-key{fill:#5d7968}
- .field-mobile-label{fill:#252723;font-size:27px;font-weight:600;letter-spacing:-.6px}
-   .field-mobile-copy{fill:#6d6c65;font-size:18.5px;letter-spacing:-.3px}
-   .field-mobile-step{fill:#252723;font-size:18.5px;font-weight:500;letter-spacing:-.3px}
-  </style>
-  <marker id="field-mobile-arrow" viewBox="0 0 8 8" refX="6" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="m2 1 3 3-3 3" fill="none" stroke="#808779" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="414" viewBox="0 0 440 414" class="field-mobile-svg" role="group" aria-labelledby="field-mobile-title" aria-describedby="field-mobile-desc">
+ <title id="field-mobile-title">Explore social simulation by topic</title>
+ <desc id="field-mobile-desc">Individuals, interactions, and societies are connected scales of social simulation. Choose one of five reading entry points: silicon participants, social science experiments, multi-agent interaction, control and calibration, or evaluation. Human evidence grounds work across every scale.</desc>
+
+<defs><style>
+ .field-mobile-svg{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+ .field-mobile-paper{fill:#faf9f6}.field-mobile-ink{fill:#252723}.field-mobile-muted{fill:#6d6c65}
+ .field-mobile-line{fill:none;stroke:#d4d5cd;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+ .field-mobile-orbit{fill:none;stroke:#ddddd6;stroke-width:1.5}
+ .field-mobile-edge{fill:none;stroke:#aeb2aa;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+ .field-mobile-accent{fill:none;stroke:#808779;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+ .field-mobile-node{fill:#faf9f6;stroke:#808779;stroke-width:1.8}
+ .field-mobile-solid{fill:#81897d;stroke:#faf9f6;stroke-width:2.2}
+ .field-mobile-key{fill:#5d7968}
+ .field-mobile-label{fill:#252723;font-size:25px;font-weight:600;letter-spacing:-.6px}
+ .field-mobile-topic{fill:#666b62;font-size:18.5px;letter-spacing:-.35px}
+ .field-mobile-cue{fill:#6d6c65;font-size:17.5px;letter-spacing:-.3px}
+ .field-mobile-svg .field-topic-link{cursor:pointer;outline:none}
+ .field-mobile-hit{fill:transparent;stroke:transparent;stroke-width:2;pointer-events:all}
+ .field-mobile-underline{fill:none;stroke:#b6bbb0;stroke-width:1;stroke-linecap:round}
+ .field-mobile-svg .field-topic-link:hover .field-mobile-hit{fill:#eeede7;fill-opacity:.6}
+ .field-mobile-svg .field-topic-link:hover .field-mobile-topic{fill:#252723}
+ .field-mobile-svg .field-topic-link:hover .field-mobile-underline{stroke:#627a69;stroke-width:1.6}
+ .field-mobile-svg .field-topic-link[aria-current="true"] .field-mobile-hit{fill:#eeede7;fill-opacity:.7;stroke:#a6aea0}
+ .field-mobile-svg .field-topic-link[aria-current="true"] .field-mobile-topic{fill:#252723;font-weight:600}
+ .field-mobile-svg .field-topic-link:focus-visible .field-mobile-hit{fill:#eeede7;fill-opacity:.6;stroke:#627a69;stroke-width:3}
+ .field-mobile-svg .field-topic-link:focus-visible .field-mobile-topic{fill:#252723}
+ @media (forced-colors:active){.field-mobile-svg .field-topic-link:focus-visible .field-mobile-hit,.field-mobile-svg .field-topic-link[aria-current="true"] .field-mobile-hit{stroke:Highlight;fill:none}}
+ </style>
+ <marker id="field-mobile-arrow" viewBox="0 0 8 8" refX="6" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="m2 1 3 3-3 3" fill="none" stroke="#808779" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></marker>
  </defs>
- <rect width="440" height="604" class="field-mobile-paper"/>
- <g aria-hidden="true">
-  <ellipse cx="92" cy="232" rx="77" ry="211" fill="#f4f3ef"/>
-  <path d="M62 68C9 143 9 315 62 398M122 68C176 143 176 315 122 398" class="field-mobile-orbit"/>
-  <path d="M79 103C48 139 46 170 66 203M109 104C138 142 136 177 117 209M70 249C44 279 43 309 63 347M108 251C138 285 138 317 125 350" class="field-mobile-edge"/>
-  <path d="M58 145v25M130 172v-25M53 291v25M136 319v-25" class="field-mobile-accent" marker-end="url(#field-mobile-arrow)"/>
-<g transform="translate(92 85) scale(.54) translate(-216 -130)">
- <circle cx="216" cy="130" r="70" class="field-mobile-orbit"/>
+<rect width="440" height="414" class="field-mobile-paper"/>
+<g aria-hidden="true">
+ <ellipse cx="82" cy="154" rx="60" ry="135" fill="#f4f3ef"/>
+ <path d="M61 36C16 98 16 207 61 269M103 36C150 98 150 207 103 269" class="field-mobile-orbit"/>
+ <path d="M73 81C51 103 48 119 63 139M94 81C115 103 117 122 105 142M66 172C48 195 45 213 61 237M100 172C119 196 121 215 107 240" class="field-mobile-edge"/>
+ <path d="M56 105v16M113 121v-16M52 199v16M116 215v-16" class="field-mobile-accent" marker-end="url(#field-mobile-arrow)"/>
+ </g>
+<a class="field-topic-link" data-topic="silicon-participants" href="https://awesome.social-atoms.org/?topic=silicon-participants#papers" aria-label="Individuals — Browse Silicon participants papers" tabindex="0">
+<rect x="12" y="10" width="416" height="94" rx="12" class="field-mobile-hit"/>
+<g aria-hidden="true" transform="translate(82 57) scale(0.45) translate(-216 -130)">
+<circle cx="216" cy="130" r="70" class="field-mobile-orbit"/>
  <circle cx="216" cy="130" r="45" fill="#e8e8e1"/>
  <circle cx="216" cy="130" r="24" class="field-mobile-solid field-mobile-key"/>
  <path class="field-mobile-edge" d="M217 105l-17-31M239 136l41 11M205 151l-23 31"/>
@@ -33,9 +47,15 @@
  <circle cx="285" cy="148" r="6" class="field-mobile-node"/>
  <circle cx="178" cy="187" r="6" class="field-mobile-node"/>
  <circle cx="216" cy="130" r="6" fill="#faf9f6"/>
- </g>
-<g transform="translate(92 232) scale(.6) translate(-600 -130)">
- <circle cx="600" cy="130" r="82" class="field-mobile-orbit"/>
+</g>
+<text x="159" y="56" class="field-mobile-label">Individuals</text>
+<text x="160" y="83" class="field-mobile-topic">Silicon participants</text>
+<path d="M160 89h158" class="field-mobile-underline"/>
+</a>
+<a class="field-topic-link" data-topic="social-experiments" href="https://awesome.social-atoms.org/?topic=social-experiments#papers" aria-label="Interactions — Browse Social science experiments papers" tabindex="0">
+<rect x="12" y="106" width="416" height="94" rx="12" class="field-mobile-hit"/>
+<g aria-hidden="true" transform="translate(82 153) scale(0.49) translate(-600 -130)">
+<circle cx="600" cy="130" r="82" class="field-mobile-orbit"/>
  <path class="field-mobile-edge" d="M560 104Q600 71 640 104M640 104Q662 147 600 172M600 172Q541 149 560 104M560 104 600 172 640 104Z"/>
  <path class="field-mobile-edge" d="M560 104 537 67M640 104 673 80M600 172 635 207M560 104 523 156M600 172 554 205M640 104 685 150"/>
  <circle cx="560" cy="104" r="16" class="field-mobile-solid field-mobile-key"/>
@@ -47,9 +67,15 @@
  <circle cx="523" cy="156" r="5" class="field-mobile-node"/>
  <circle cx="554" cy="205" r="5" class="field-mobile-node"/>
  <circle cx="685" cy="150" r="5" class="field-mobile-node"/>
- </g>
-<g transform="translate(92 379) scale(.6) translate(-984 -130)">
- <circle cx="984" cy="130" r="103" class="field-mobile-orbit"/>
+</g>
+<text x="159" y="152" class="field-mobile-label">Interactions</text>
+<text x="160" y="179" class="field-mobile-topic">Social science experiments</text>
+<path d="M160 185h231" class="field-mobile-underline"/>
+</a>
+<a class="field-topic-link" data-topic="multi-agent" href="https://awesome.social-atoms.org/?topic=multi-agent#papers" aria-label="Societies — Browse Multi-agent interaction papers" tabindex="0">
+<rect x="12" y="202" width="416" height="94" rx="12" class="field-mobile-hit"/>
+<g aria-hidden="true" transform="translate(82 249) scale(0.47) translate(-984 -130)">
+<circle cx="984" cy="130" r="103" class="field-mobile-orbit"/>
  <circle cx="984" cy="130" r="77" fill="#e8e8e1" opacity=".55"/>
 <g class="field-mobile-edge">
 <path d="M984.0 130.0 1020.9 109.9"/>
@@ -122,28 +148,22 @@
 <circle cx="1011.8" cy="49.7" r="4.8" class="field-mobile-node"/>
 <circle cx="1042.1" cy="67.9" r="4.8" class="field-mobile-node"/>
 </g>
-</g>
- <text x="179" y="82" class="field-mobile-label">Individuals</text>
- <text x="180" y="113" class="field-mobile-copy">Beliefs &amp; decisions</text>
- <text x="179" y="229" class="field-mobile-label">Interactions</text>
- <text x="180" y="260" class="field-mobile-copy">Relations &amp; coordination</text>
- <text x="179" y="376" class="field-mobile-label">Societies</text>
- <text x="180" y="407" class="field-mobile-copy">Collective patterns</text>
- <!-- The entire social field is grounded in the same research loop. -->
- <path d="M92 444v11q0 10 10 10h119v41" class="field-mobile-line"/>
- <circle cx="221" cy="506" r="2.5" fill="#808779"/>
- <g class="field-mobile-step" text-anchor="middle">
-  <text x="58" y="499">Human<tspan x="58" dy="22">evidence</tspan></text>
-  <text x="172" y="513">Model</text>
-  <text x="272" y="513">Simulate</text>
-  <text x="382" y="513">Evaluate</text>
+<text x="159" y="248" class="field-mobile-label">Societies</text>
+<text x="160" y="275" class="field-mobile-topic">Multi-agent interaction</text>
+<path d="M160 281h184" class="field-mobile-underline"/>
+</a>
+<g aria-hidden="true" class="field-mobile-line">
+ <path d="M82 299v7q0 8 8 8h122q8 0 8 8M30 346h380"/>
  </g>
- <g class="field-mobile-accent" aria-hidden="true" marker-end="url(#field-mobile-arrow)">
-  <path d="M104 506h31"/>
-  <path d="M209 506h21"/>
-  <path d="M316 506h24"/>
-  <path d="M382 537v21q0 17-17 17H189q-17 0-17-17v-21"/>
- </g>
- <rect x="240" y="559" width="73" height="31" class="field-mobile-paper"/>
- <text x="277" y="582" class="field-mobile-copy" text-anchor="middle">Refine</text>
+ <text x="220" y="339" text-anchor="middle" class="field-mobile-cue">Human evidence across every scale</text>
+<a class="field-topic-link" data-topic="control-calibration" href="https://awesome.social-atoms.org/?topic=control-calibration#papers" aria-label="Browse Control and calibration papers" tabindex="0">
+<rect x="12" y="346" width="264" height="66" rx="12" class="field-mobile-hit"/>
+<text x="144.0" y="385" text-anchor="middle" class="field-mobile-topic">Control and calibration</text>
+<path d="M50.0 391h188" class="field-mobile-underline"/>
+</a>
+<a class="field-topic-link" data-topic="evaluation" href="https://awesome.social-atoms.org/?topic=evaluation#papers" aria-label="Browse Evaluation papers" tabindex="0">
+<rect x="288" y="346" width="140" height="66" rx="12" class="field-mobile-hit"/>
+<text x="358.0" y="385" text-anchor="middle" class="field-mobile-topic">Evaluation</text>
+<path d="M313.5 391h89" class="field-mobile-underline"/>
+</a>
 </svg>

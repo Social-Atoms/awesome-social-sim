@@ -103,20 +103,20 @@ a,button,summary,.search-box{transition:color 140ms ease,background-color 140ms 
 @media(max-width:760px){.paper-resources{gap:5px 18px;font-size:.875rem}.paper-resources a{min-height:30px}.paper-details summary{min-height:32px;font-size:.875rem}.paper-details p{font-size:.9375rem}}
 
 /* A single field map anchors the page before the reading list. */
-.intro{margin:58px 0 28px}
-.intro h1{font-size:2.625rem;letter-spacing:-1.25px;margin-bottom:12px}
+.intro{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:24px;align-items:baseline;margin:32px 0 18px}
+.intro h1{grid-column:1/-1;font-size:2.625rem;letter-spacing:-1.25px;margin-bottom:12px}
 .intro-copy{font-size:1.125rem;line-height:1.6}
-.collection-meta{margin-top:16px}
-.field-guide{margin:0 0 46px;scroll-margin-top:24px}
+.collection-meta{margin-top:0}
+.field-guide{margin:0 0 24px;scroll-margin-top:24px}
 .guide-figure{margin:0}
 .unified-map{overflow:hidden;border:1px solid #dfddd6;border-radius:8px;background:#faf9f6}
 .unified-map svg{display:block;width:100%;height:auto}
 .map-mobile{display:none}
-.guide-figure figcaption{display:flex;align-items:baseline;justify-content:space-between;gap:12px 24px;margin:15px 0 0;color:var(--muted);font-size:.875rem;line-height:1.65}
+.guide-figure figcaption{display:flex;align-items:baseline;justify-content:space-between;gap:12px 24px;margin:8px 0 0;color:var(--muted);font-size:.875rem;line-height:1.65}
 .guide-figure figcaption p{margin:0}
 .figure-tools{display:flex;align-items:center;flex-wrap:wrap;gap:8px 22px;flex-shrink:0;color:var(--green-dark);font-size:.8125rem}
 .figure-tools>a{display:inline-flex;align-items:center;gap:8px;border-radius:2px;white-space:nowrap;min-height:32px}
-.guide-reading{margin-top:10px;padding-top:8px;border-top:1px solid var(--line);font-size:.8125rem}
+.guide-reading{margin-top:2px;padding-top:4px;border-top:1px solid var(--line);font-size:.8125rem}
 .guide-reading summary{display:flex;justify-content:space-between;align-items:center;gap:14px;list-style:none;min-height:32px;color:var(--muted);border-radius:2px}
 .guide-reading summary:hover{color:var(--green-dark)}
 .guide-reading summary>span{color:var(--green-dark);font-size:1rem}
@@ -129,5 +129,5 @@ a,button,summary,.search-box{transition:color 140ms ease,background-color 140ms 
 .guide-reading li span{display:block;margin-top:3px;font-size:.8125rem;line-height:1.6;color:var(--muted)}
 #papers:focus{outline:none}
 @media(max-width:700px){.map-desktop{display:none}.map-mobile{display:block;max-width:480px;margin-inline:auto}}
-@media(max-width:760px){.masthead nav>a:not(.repo-link){display:none}.intro{margin:36px 0 24px}.intro h1{font-size:2rem;letter-spacing:-.8px;line-height:1.15}.intro-copy{font-size:1rem;max-width:33ch}.field-guide{margin-bottom:28px}.guide-figure figcaption{display:block;margin-top:13px;font-size:.875rem}.figure-tools{margin-top:5px;gap:8px 24px}.figure-tools>a{min-height:40px}.guide-reading{margin-top:8px;padding-top:4px}.guide-reading summary{min-height:44px}.guide-reading li a{line-height:1.6}.guide-reading li span{font-size:.875rem}}
-@media print{.map-desktop{display:block}.map-mobile{display:none}.figure-tools,.guide-reading{display:none!important}.unified-map{overflow:visible;border:0}.guide-figure{break-inside:avoid}.intro{margin-top:24px}.field-guide{margin-bottom:28px}}
+@media(max-width:760px){.masthead nav>a:not(.repo-link){display:none}.intro{display:block;margin:26px 0 18px}.intro .collection-meta{margin-top:12px}.intro h1{font-size:2rem;letter-spacing:-.8px;line-height:1.15}.intro-copy{font-size:1rem;max-width:33ch}.field-guide{margin-bottom:20px}.guide-figure figcaption{display:block;margin-top:8px;font-size:.875rem}.figure-tools{margin-top:5px;gap:8px 24px}.figure-tools>a{min-height:40px}.guide-reading{margin-top:2px;padding-top:2px}.guide-reading summary{min-height:44px}.guide-reading li a{line-height:1.6}.guide-reading li span{font-size:.875rem}}
+@media print{.map-desktop{display:block}.map-mobile{display:none}.figure-tools,.guide-reading{display:none!important}.unified-map{overflow:visible;border:0}.guide-figure{break-inside:avoid}.intro{margin-top:24px}.field-guide{margin-bottom:20px}}

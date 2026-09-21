@@ -13,7 +13,7 @@ A curated reading list on **simulating people and societies with language models
 
 The website supports search, topic and year filters, and shareable views. The same collection is available below as Markdown; a paper can appear in more than one topic.
 
-The [field map](https://awesome.social-atoms.org/#field-guide) connects individuals, interactions, and societies with a shared cycle of human evidence, modeling, simulation, and evaluation. Download the SVG or follow its background readings on the website.
+The [field map](https://awesome.social-atoms.org/#field-guide) connects individuals, interactions, and societies, grounded in human evidence, calibration, and evaluation. Select a tag in the map to browse its papers, or download the SVG.
 
 <!-- catalogue:start -->
 

@@ -1,34 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" class="field-map-svg" role="img" aria-labelledby="field-map-title field-map-desc">
- <title id="field-map-title">A map of social simulation</title>
- <desc id="field-map-desc">Individuals, interactions, and societies are connected levels of social simulation. Beliefs and decisions, relations and coordination, and collective patterns influence one another. Human evidence informs a shared cycle of modeling, simulation, evaluation, and refinement across every level.</desc>
- <defs><style>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" class="field-map-svg" role="group" aria-labelledby="field-map-title" aria-describedby="field-map-desc">
+ <title id="field-map-title">Explore social simulation by topic</title>
+ <desc id="field-map-desc">Individuals, interactions, and societies are connected scales of social simulation. Choose one of five reading entry points: silicon participants, social science experiments, multi-agent interaction, control and calibration, or evaluation. Human evidence grounds work across every scale.</desc>
+
+<defs><style>
+ .field-map-svg{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
  .field-map-paper{fill:#faf9f6}.field-map-ink{fill:#252723}.field-map-muted{fill:#6d6c65}
- .field-map-line{fill:none;stroke:#d4d5cd;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+ .field-map-line{fill:none;stroke:#d4d5cd;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
  .field-map-orbit{fill:none;stroke:#ddddd6;stroke-width:1.5}
  .field-map-edge{fill:none;stroke:#aeb2aa;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
- .field-map-accent{fill:none;stroke:#808779;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+ .field-map-accent{fill:none;stroke:#808779;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
  .field-map-node{fill:#faf9f6;stroke:#808779;stroke-width:1.8}
  .field-map-solid{fill:#81897d;stroke:#faf9f6;stroke-width:2.2}
  .field-map-key{fill:#5d7968}
- .field-map-label{fill:#252723;font-size:35px;font-weight:600;letter-spacing:-.8px}
- .field-map-copy{fill:#6d6c65;font-size:26px;letter-spacing:-.4px}
- .field-map-step{fill:#252723;font-size:28px;font-weight:500;letter-spacing:-.4px}
- .field-map-text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+ .field-map-label{fill:#252723;font-size:32px;font-weight:600;letter-spacing:-.6px}
+ .field-map-topic{fill:#666b62;font-size:22px;letter-spacing:-.35px}
+ .field-map-cue{fill:#6d6c65;font-size:22px;letter-spacing:-.3px}
+ .field-map-svg .field-topic-link{cursor:pointer;outline:none}
+ .field-map-hit{fill:transparent;stroke:transparent;stroke-width:2;pointer-events:all}
+ .field-map-underline{fill:none;stroke:#b6bbb0;stroke-width:1;stroke-linecap:round}
+ .field-map-svg .field-topic-link:hover .field-map-hit{fill:#eeede7;fill-opacity:.6}
+ .field-map-svg .field-topic-link:hover .field-map-topic{fill:#252723}
+ .field-map-svg .field-topic-link:hover .field-map-underline{stroke:#627a69;stroke-width:1.6}
+ .field-map-svg .field-topic-link[aria-current="true"] .field-map-hit{fill:#eeede7;fill-opacity:.7;stroke:#a6aea0}
+ .field-map-svg .field-topic-link[aria-current="true"] .field-map-topic{fill:#252723;font-weight:600}
+ .field-map-svg .field-topic-link:focus-visible .field-map-hit{fill:#eeede7;fill-opacity:.6;stroke:#627a69;stroke-width:3}
+ .field-map-svg .field-topic-link:focus-visible .field-map-topic{fill:#252723}
+ @media (forced-colors:active){.field-map-svg .field-topic-link:focus-visible .field-map-hit,.field-map-svg .field-topic-link[aria-current="true"] .field-map-hit{stroke:Highlight;fill:none}}
  </style>
- <marker id="field-map-arrow" viewBox="0 0 8 8" refX="6" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="m2 1 3 3-3 3" fill="none" stroke="#808779" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
- <rect width="1200" height="520" class="field-map-paper"/>
- <g transform="translate(0 14)"><g class="field-map-text">
- <g aria-hidden="true">
- <ellipse cx="600" cy="128" rx="522" ry="119" fill="#f4f3ef"/>
- <path class="field-map-orbit" d="M204 59C402-14 798-14 996 59M204 207C402 268 798 268 996 207"/>
- <path class="field-map-accent" d="M518 19c54-4 111-4 165 0" marker-start="url(#field-map-arrow)" marker-end="url(#field-map-arrow)" opacity=".6"/>
- <path class="field-map-edge" d="M246 125C347 87 436 84 551 112M248 144C350 178 455 191 570 159M641 111C741 76 841 84 916 107M636 156C737 191 839 187 912 152"/>
- <path class="field-map-accent" d="M369 103c19-2 37-2 57-1" marker-end="url(#field-map-arrow)"/>
- <path class="field-map-accent" d="M427 181c-21 0-40-2-59-4" marker-end="url(#field-map-arrow)"/>
- <path class="field-map-accent" d="M764 96c19 0 38 1 57 4" marker-end="url(#field-map-arrow)"/>
- <path class="field-map-accent" d="M822 181c-20 2-39 2-58 1" marker-end="url(#field-map-arrow)"/>
- <!-- One person, with a persistent inner state. -->
- <circle cx="216" cy="130" r="70" class="field-map-orbit"/>
+ <marker id="field-map-arrow" viewBox="0 0 8 8" refX="6" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="m2 1 3 3-3 3" fill="none" stroke="#808779" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></marker>
+ </defs>
+<rect width="1200" height="340" class="field-map-paper"/>
+<g aria-hidden="true">
+ <ellipse cx="600" cy="103" rx="514" ry="84" fill="#f4f3ef"/>
+ <path class="field-map-orbit" d="M216 43C410-6 790-6 984 43M216 163C410 207 790 207 984 163"/>
+ <path class="field-map-edge" d="M244 92C349 65 447 66 566 91M244 117C351 150 456 151 577 124M635 90C744 65 839 67 923 85M630 123C738 151 841 147 920 123"/>
+ <path class="field-map-accent" d="M383 74h34M416 145h-34M775 74h34M810 145h-34" marker-end="url(#field-map-arrow)"/>
+ </g>
+<a class="field-topic-link" data-topic="silicon-participants" href="https://awesome.social-atoms.org/?topic=silicon-participants#papers" aria-label="Individuals — Browse Silicon participants papers" tabindex="0">
+<rect x="42" y="14" width="348" height="236" rx="12" class="field-map-hit"/>
+<g aria-hidden="true" transform="translate(216 104) scale(0.71) translate(-216 -130)">
+<circle cx="216" cy="130" r="70" class="field-map-orbit"/>
  <circle cx="216" cy="130" r="45" fill="#e8e8e1"/>
  <circle cx="216" cy="130" r="24" class="field-map-solid field-map-key"/>
  <path class="field-map-edge" d="M217 105l-17-31M239 136l41 11M205 151l-23 31"/>
@@ -36,8 +47,15 @@
  <circle cx="285" cy="148" r="6" class="field-map-node"/>
  <circle cx="178" cy="187" r="6" class="field-map-node"/>
  <circle cx="216" cy="130" r="6" fill="#faf9f6"/>
- <!-- Mutual relations, with no privileged direction. -->
- <circle cx="600" cy="130" r="82" class="field-map-orbit"/>
+</g>
+<text x="216" y="211" text-anchor="middle" class="field-map-label">Individuals</text>
+<text x="216" y="239" text-anchor="middle" class="field-map-topic">Silicon participants</text>
+<path d="M122.0 245h188" class="field-map-underline"/>
+</a>
+<a class="field-topic-link" data-topic="social-experiments" href="https://awesome.social-atoms.org/?topic=social-experiments#papers" aria-label="Interactions — Browse Social science experiments papers" tabindex="0">
+<rect x="426" y="14" width="348" height="236" rx="12" class="field-map-hit"/>
+<g aria-hidden="true" transform="translate(600 104) scale(0.76) translate(-600 -130)">
+<circle cx="600" cy="130" r="82" class="field-map-orbit"/>
  <path class="field-map-edge" d="M560 104Q600 71 640 104M640 104Q662 147 600 172M600 172Q541 149 560 104M560 104 600 172 640 104Z"/>
  <path class="field-map-edge" d="M560 104 537 67M640 104 673 80M600 172 635 207M560 104 523 156M600 172 554 205M640 104 685 150"/>
  <circle cx="560" cy="104" r="16" class="field-map-solid field-map-key"/>
@@ -49,8 +67,15 @@
  <circle cx="523" cy="156" r="5" class="field-map-node"/>
  <circle cx="554" cy="205" r="5" class="field-map-node"/>
  <circle cx="685" cy="150" r="5" class="field-map-node"/>
- <!-- A population: local relationships and collective structure. -->
- <circle cx="984" cy="130" r="103" class="field-map-orbit"/>
+</g>
+<text x="600" y="211" text-anchor="middle" class="field-map-label">Interactions</text>
+<text x="600" y="239" text-anchor="middle" class="field-map-topic">Social science experiments</text>
+<path d="M463.0 245h274" class="field-map-underline"/>
+</a>
+<a class="field-topic-link" data-topic="multi-agent" href="https://awesome.social-atoms.org/?topic=multi-agent#papers" aria-label="Societies — Browse Multi-agent interaction papers" tabindex="0">
+<rect x="810" y="14" width="348" height="236" rx="12" class="field-map-hit"/>
+<g aria-hidden="true" transform="translate(984 100) scale(0.72) translate(-984 -130)">
+<circle cx="984" cy="130" r="103" class="field-map-orbit"/>
  <circle cx="984" cy="130" r="77" fill="#e8e8e1" opacity=".55"/>
 <g class="field-map-edge">
 <path d="M984.0 130.0 1020.9 109.9"/>
@@ -123,32 +148,22 @@
 <circle cx="1011.8" cy="49.7" r="4.8" class="field-map-node"/>
 <circle cx="1042.1" cy="67.9" r="4.8" class="field-map-node"/>
 </g>
- <g text-anchor="middle">
- <text x="216" y="281" class="field-map-label">Individuals</text>
- <text x="600" y="281" class="field-map-label">Interactions</text>
- <text x="984" y="281" class="field-map-label">Societies</text>
- <text x="216" y="318" class="field-map-copy">Beliefs &amp; decisions</text>
- <text x="600" y="318" class="field-map-copy">Relations &amp; coordination</text>
- <text x="984" y="318" class="field-map-copy">Collective patterns</text>
+<text x="984" y="211" text-anchor="middle" class="field-map-label">Societies</text>
+<text x="984" y="239" text-anchor="middle" class="field-map-topic">Multi-agent interaction</text>
+<path d="M874.5 245h219" class="field-map-underline"/>
+</a>
+<g aria-hidden="true" class="field-map-line">
+ <path d="M216 255v12q0 8 8 8h752q8 0 8-8v-12M600 255v20M600 275v11"/>
  </g>
- <!-- A shared foundation connects the research loop to every level. -->
- <g class="field-map-line" aria-hidden="true">
- <path d="M216 340v12q0 9 9 9h750q9 0 9-9v-12M600 340v66"/>
- </g>
- <circle cx="600" cy="361" r="3" fill="#808779"/>
- <g text-anchor="middle">
- <text x="195" y="415" class="field-map-step">Human evidence</text>
- <text x="475" y="415" class="field-map-step">Model</text>
- <text x="735" y="415" class="field-map-step">Simulate</text>
- <text x="995" y="415" class="field-map-step">Evaluate</text>
- </g>
- <g class="field-map-accent" aria-hidden="true" marker-end="url(#field-map-arrow)">
- <path d="M322 406h83"/>
- <path d="M535 406h112"/>
- <path d="M822 406h85"/>
- <path d="M995 435v18q0 22-22 22H497q-22 0-22-22v-18"/>
- </g>
- <rect x="680" y="457" width="110" height="34" class="field-map-paper"/>
- <text x="735" y="484" text-anchor="middle" class="field-map-copy">Refine</text>
- </g></g>
+ <text x="216" y="316" text-anchor="middle" class="field-map-cue">Human evidence</text>
+<a class="field-topic-link" data-topic="control-calibration" href="https://awesome.social-atoms.org/?topic=control-calibration#papers" aria-label="Browse Control and calibration papers" tabindex="0">
+<rect x="426.0" y="287" width="348" height="46" rx="12" class="field-map-hit"/>
+<text x="600" y="316" text-anchor="middle" class="field-map-topic">Control and calibration</text>
+<path d="M489.0 322h222" class="field-map-underline"/>
+</a>
+<a class="field-topic-link" data-topic="evaluation" href="https://awesome.social-atoms.org/?topic=evaluation#papers" aria-label="Browse Evaluation papers" tabindex="0">
+<rect x="860.0" y="287" width="248" height="46" rx="12" class="field-map-hit"/>
+<text x="984" y="316" text-anchor="middle" class="field-map-topic">Evaluation</text>
+<path d="M932.5 322h103" class="field-map-underline"/>
+</a>
 </svg>
