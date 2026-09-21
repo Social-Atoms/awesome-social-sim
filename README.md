@@ -1,4 +1,4 @@
-# AWESOME SOCIAL SIMULATION
+# Awesome Social Simulation
 
 A curated reading list on **LLM-based simulation of human behavior and social interaction**. Each entry explains why the paper belongs, with links to its publication and supporting resources.
 
