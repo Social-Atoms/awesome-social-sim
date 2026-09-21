@@ -10,7 +10,8 @@ import re
 import shutil
 import tempfile
 import unittest
-from urllib.parse import urljoin, urlsplit
+from urllib.parse import parse_qs, urljoin, urlsplit
+import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
 spec = importlib.util.spec_from_file_location('catalogue_build', ROOT / 'scripts/build.py')
@@ -226,6 +227,31 @@ class CatalogueTests(unittest.TestCase):
         self.assertIn('hugagent-a-human-simulation-benchmark-for-individual-level-reasoning', ids)
         self.assertEqual(len(ids), len(papers))
         self.assertTrue(all(paper['primaryTopic'] in {topic['id'] for topic in topics} for paper in papers))
+
+    def test_field_map_links_match_catalogue_topics(self):
+        _, topics, _ = builder.load_collection(ROOT)
+        topic_names = {topic['id']: topic['label'] for topic in topics}
+        svg_ids = []
+        for filename in ('field-map.svg', 'field-map-mobile.svg'):
+            with self.subTest(layout=filename):
+                root = ET.parse(ROOT / 'site/static/assets' / filename).getroot()
+                # An image role would hide the map's interactive descendants.
+                self.assertEqual(root.get('role'), 'group')
+                links = [node for node in root.iter('{http://www.w3.org/2000/svg}a') if node.get('data-topic')]
+                self.assertCountEqual([link.get('data-topic') for link in links], topic_names)
+                for link in links:
+                    topic = link.get('data-topic')
+                    target = urlsplit(link.get('href'))
+                    self.assertEqual(target.scheme, 'https')
+                    self.assertEqual(target.netloc, 'awesome.social-atoms.org')
+                    self.assertEqual(parse_qs(target.query), {'topic': [topic]})
+                    self.assertEqual(target.fragment, 'papers')
+                    self.assertIn(topic_names[topic], link.get('aria-label', ''))
+                    self.assertEqual(link.get('tabindex'), '0')
+                    for text in link.findall('{http://www.w3.org/2000/svg}text'):
+                        self.assertIn(''.join(text.itertext()), link.get('aria-label', ''))
+                svg_ids.extend(node.get('id') for node in root.iter() if node.get('id'))
+        self.assertEqual(len(svg_ids), len(set(svg_ids)), 'Both maps are embedded in the same page.')
 
 
 if __name__ == '__main__':

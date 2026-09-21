@@ -2,7 +2,7 @@
 
 One map connects what social simulation studies with how its claims are tested. Individuals, interactions, and societies are related scales, not numbered stages: people shape collective patterns, and social context shapes individual behavior.
 
-The shared research cycle starts from human evidence, moves through modeling and simulation, and evaluates results before refining assumptions. Calibration and evaluation apply at every scale. The map is an editorial orientation to LLM-based social simulation, not an exhaustive taxonomy. Plausible behavior alone does not establish fidelity to a population or setting.
+Human evidence, calibration, and evaluation form a shared foundation across all three scales. The map is an editorial orientation to LLM-based social simulation, not an exhaustive taxonomy. Plausible behavior alone does not establish fidelity to a population or setting.
 
 ## Background reading
 
@@ -14,4 +14,6 @@ The shared research cycle starts from human evidence, moves through modeling and
 
 Edit [`site/static/assets/field-map.svg`](../site/static/assets/field-map.svg); [`scripts/build.py`](../scripts/build.py) embeds the map in the website. Its [mobile layout](../site/static/assets/field-map-mobile.svg) presents the same concepts vertically. Keep its title, description, labels, and accompanying caption consistent. The README uses a compact companion illustration in light and dark variants in [`docs/assets/`](assets/).
 
-The site's topic navigation remains the entry point into the collection. Topics are research approaches and concerns that can span several scales; they are not exclusive categories within the map. Background readings are separate from the curated entries and their paper counts.
+The map and topic navigation share the same five filters. Each SVG link's `data-topic` and URL query must match an ID in `data/topics.json`. Clicking a map tag clears search and year restrictions, updates the URL and selection, and moves focus to the paper list; All papers clears the topic too. Both SVG layouts expose the same links, including when opened as standalone files.
+
+Topics are reading entry points that can span several scales, not exclusive categories within the map. The three scale links lead to Silicon participants, Social science experiments, and Multi-agent interaction; Control and calibration and Evaluation apply across scales. Background readings are separate from the curated entries and their paper counts.
