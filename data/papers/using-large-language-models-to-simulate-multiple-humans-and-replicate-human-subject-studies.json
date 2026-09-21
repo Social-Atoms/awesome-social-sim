@@ -14,5 +14,15 @@
     "silicon-participants": "Introduces Turing Experiments to test replication of classic human-subject findings.",
     "social-experiments": "Introduces Turing Experiments to test replication of classic human-subject findings."
   },
-  "primaryTopic": "social-experiments"
+  "primaryTopic": "social-experiments",
+  "resources": [
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/abs/2208.10264"
+    },
+    {
+      "label": "Code",
+      "url": "https://github.com/microsoft/turing-experiments"
+    }
+  ]
 }

@@ -12,5 +12,15 @@
     "multi-agent": "Uses CogMir to examine cognitive biases and prosocial decisions in multi-agent experimental settings.",
     "social-experiments": "Uses CogMir to examine cognitive biases and prosocial decisions in multi-agent experimental settings."
   },
-  "primaryTopic": "social-experiments"
+  "primaryTopic": "social-experiments",
+  "resources": [
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/abs/2405.14744"
+    },
+    {
+      "label": "Data & prompts",
+      "url": "https://github.com/XuanL17/CogMir"
+    }
+  ]
 }

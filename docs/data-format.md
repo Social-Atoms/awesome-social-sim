@@ -49,6 +49,8 @@ The record already exists; edit it in place rather than adding a duplicate. For 
 
 Do not invent missing author information, links, distinctions, or publication history. Omit unknown optional fields rather than setting them to `null`. JSON does not support comments. Unknown fields are rejected to catch spelling mistakes.
 
+Resource links appear under the paper title on both the website and GitHub topic pages. Include the paper's arXiv record, official code, project page, or replication data when available. Verify the connection using the paper, an author-maintained project page, or the repository's citation; do not add unofficial forks or guessed URLs. Use concise labels such as `arXiv`, `Code`, `Project`, and `Data`, and omit links that duplicate the main publication URL.
+
 ## Source and verification details
 
 `provenance` supports these fields:

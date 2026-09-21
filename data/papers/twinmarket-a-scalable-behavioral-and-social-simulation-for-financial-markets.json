@@ -10,5 +10,19 @@
   "notes": {
     "multi-agent": "Simulates interactions among market agents and resulting collective financial dynamics."
   },
-  "primaryTopic": "multi-agent"
+  "primaryTopic": "multi-agent",
+  "resources": [
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/abs/2502.01506"
+    },
+    {
+      "label": "Code",
+      "url": "https://github.com/FreedomIntelligence/TwinMarket"
+    },
+    {
+      "label": "Project",
+      "url": "https://freedomintelligence.github.io/TwinMarket/"
+    }
+  ]
 }

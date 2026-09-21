@@ -12,5 +12,15 @@
     "evaluation": "Compares language-model opinion distributions with public-opinion surveys across 60 demographic groups.",
     "silicon-participants": "Measures how well model responses represent opinion distributions across demographic groups."
   },
-  "primaryTopic": "evaluation"
+  "primaryTopic": "evaluation",
+  "resources": [
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/abs/2303.17548"
+    },
+    {
+      "label": "Code",
+      "url": "https://github.com/tatsu-lab/opinions_qa"
+    }
+  ]
 }

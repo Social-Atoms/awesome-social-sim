@@ -12,5 +12,19 @@
     "evaluation": "Introduces interactive social scenarios and a framework for evaluating agents’ social goals.",
     "multi-agent": "Introduces interactive social scenarios and a framework for evaluating agents’ social goals."
   },
-  "primaryTopic": "evaluation"
+  "primaryTopic": "evaluation",
+  "resources": [
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/abs/2310.11667"
+    },
+    {
+      "label": "Code",
+      "url": "https://github.com/sotopia-lab/sotopia"
+    },
+    {
+      "label": "Project",
+      "url": "https://sotopia.world/projects/sotopia"
+    }
+  ]
 }

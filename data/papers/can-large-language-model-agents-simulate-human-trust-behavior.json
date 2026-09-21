@@ -12,5 +12,19 @@
     "evaluation": "Compares agent decisions in trust games with human trust behavior.",
     "social-experiments": "Compares agent decisions in trust games with human trust behavior."
   },
-  "primaryTopic": "evaluation"
+  "primaryTopic": "evaluation",
+  "resources": [
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/abs/2402.04559"
+    },
+    {
+      "label": "Code",
+      "url": "https://github.com/camel-ai/agent-trust"
+    },
+    {
+      "label": "Project",
+      "url": "https://agent-trust.camel-ai.org/"
+    }
+  ]
 }

@@ -10,5 +10,15 @@
   "notes": {
     "multi-agent": "Builds an interactive town where agents remember, plan, and develop social interactions."
   },
-  "primaryTopic": "multi-agent"
+  "primaryTopic": "multi-agent",
+  "resources": [
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/abs/2304.03442"
+    },
+    {
+      "label": "Code",
+      "url": "https://github.com/joonspk-research/generative_agents"
+    }
+  ]
 }
