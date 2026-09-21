@@ -12,6 +12,6 @@ The shared research cycle starts from human evidence, moves through modeling and
 
 ## Maintenance
 
-Edit [`site/static/assets/field-map.svg`](../site/static/assets/field-map.svg); [`scripts/build.py`](../scripts/build.py) embeds the map in the website. Its [mobile layout](../site/static/assets/field-map-mobile.svg) presents the same concepts vertically. Keep its title, description, labels, and accompanying caption consistent. The README uses matching light and dark artwork in [`docs/assets/`](assets/).
+Edit [`site/static/assets/field-map.svg`](../site/static/assets/field-map.svg); [`scripts/build.py`](../scripts/build.py) embeds the map in the website. Its [mobile layout](../site/static/assets/field-map-mobile.svg) presents the same concepts vertically. Keep its title, description, labels, and accompanying caption consistent. The README uses a compact companion illustration in light and dark variants in [`docs/assets/`](assets/).
 
 The site's topic navigation remains the entry point into the collection. Topics are research approaches and concerns that can span several scales; they are not exclusive categories within the map. Background readings are separate from the curated entries and their paper counts.
