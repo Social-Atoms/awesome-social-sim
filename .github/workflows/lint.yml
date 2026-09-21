@@ -1,0 +1,39 @@
+name: lint
+
+# Two gates on every change: the generated catalogue matches data/papers/, and the
+# README still satisfies awesome-lint, which is what the main Awesome list requires.
+# No badge for this workflow in the README: the Awesome guidelines say a CI badge
+# adds nothing there.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  catalogue:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+      - name: generated files are up to date
+        run: python3 scripts/build.py --check
+      - name: tests
+        run: python3 -m unittest discover -s tests -v
+
+  awesome:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - name: awesome-lint
+        run: npx --yes awesome-lint
