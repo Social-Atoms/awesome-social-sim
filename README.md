@@ -71,3 +71,4 @@ python3 -m http.server 4173 --directory dist
 Open [localhost:4173](http://localhost:4173/). `dist/` is generated and is not committed. GitHub Actions builds and deploys the website from `main`; pull requests validate changes without publishing them. See [maintenance and deployment](docs/maintaining.md).
 
 Social Atoms branding and the bundled font are documented in [third-party notices](THIRD_PARTY_NOTICES.md).
+
