@@ -12,5 +12,15 @@
     "evaluation": "Evaluates whether generated online communities and interactions resemble real community behavior and support design exploration.",
     "multi-agent": "Generates populated online communities with diverse member personas, posts, replies, and social interventions."
   },
-  "primaryTopic": "multi-agent"
+  "primaryTopic": "multi-agent",
+  "resources": [
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/abs/2208.04024"
+    },
+    {
+      "label": "Project",
+      "url": "https://social-simulacra.herokuapp.com/"
+    }
+  ]
 }

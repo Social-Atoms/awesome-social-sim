@@ -12,5 +12,19 @@
     "control-calibration": "Controls LLM agents’ cognitive biases across input (prompting), hidden (representation steering), and parameter (fine-tuning) spaces using classic social-science experiments as behavioral anchors.",
     "social-experiments": "Controls LLM agents’ cognitive biases across input (prompting), hidden (representation steering), and parameter (fine-tuning) spaces using classic social-science experiments as behavioral anchors."
   },
-  "primaryTopic": "control-calibration"
+  "primaryTopic": "control-calibration",
+  "resources": [
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/abs/2509.13588"
+    },
+    {
+      "label": "Code",
+      "url": "https://github.com/AISmithLab/CoBRA"
+    },
+    {
+      "label": "Project",
+      "url": "https://cobra.clawder.ai/"
+    }
+  ]
 }

@@ -12,5 +12,19 @@
     "evaluation": "Compares simulated survey answers across demographic groups with human survey responses.",
     "silicon-participants": "Compares simulated survey answers across demographic groups with human survey responses."
   },
-  "primaryTopic": "silicon-participants"
+  "primaryTopic": "silicon-participants",
+  "resources": [
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/abs/2209.06899"
+    },
+    {
+      "label": "Code",
+      "url": "https://github.com/wingated/out_of_one_many"
+    },
+    {
+      "label": "Data",
+      "url": "https://doi.org/10.7910/DVN/JPV20K"
+    }
+  ]
 }

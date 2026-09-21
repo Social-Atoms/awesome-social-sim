@@ -12,5 +12,15 @@
     "multi-agent": "Uses a common-resource simulation to study cooperation and sustainability among agents.",
     "social-experiments": "Uses a common-resource simulation to study cooperation and sustainability among agents."
   },
-  "primaryTopic": "multi-agent"
+  "primaryTopic": "multi-agent",
+  "resources": [
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/abs/2404.16698"
+    },
+    {
+      "label": "Code",
+      "url": "https://github.com/giorgiopiatti/GovSim"
+    }
+  ]
 }

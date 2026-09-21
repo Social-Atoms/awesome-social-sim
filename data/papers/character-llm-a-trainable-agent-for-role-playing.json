@@ -12,5 +12,19 @@
     "control-calibration": "Controls a simulated character through experience reconstruction and character-specific fine-tuning.",
     "silicon-participants": "Trains personal simulacra from character profiles, experiences, and emotional states."
   },
-  "primaryTopic": "control-calibration"
+  "primaryTopic": "control-calibration",
+  "resources": [
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/abs/2310.10158"
+    },
+    {
+      "label": "Code",
+      "url": "https://github.com/choosewhatulike/trainable-agents"
+    },
+    {
+      "label": "Data",
+      "url": "https://huggingface.co/datasets/OpenMOSS-Team/character-llm-data"
+    }
+  ]
 }
