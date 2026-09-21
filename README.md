@@ -3,7 +3,7 @@
 <a href="https://awesome.social-atoms.org/">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="docs/assets/readme-hero-dark.svg">
-    <img src="docs/assets/readme-hero.svg" alt="Awesome Social Simulation by Social Atoms. One map connects individuals, interactions, and societies with a shared cycle of human evidence, modeling, simulation, and evaluation." width="1200">
+    <img src="docs/assets/readme-hero.svg" alt="Awesome Social Simulation by Social Atoms. Simulating people and societies with language models, illustrated from individuals to interactions to societies." width="1200">
   </picture>
 </a>
 

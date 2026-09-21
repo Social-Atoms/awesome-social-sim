@@ -2,23 +2,24 @@
  <title id="field-map-title">A map of social simulation</title>
  <desc id="field-map-desc">Individuals, interactions, and societies are connected levels of social simulation. Beliefs and decisions, relations and coordination, and collective patterns influence one another. Human evidence informs a shared cycle of modeling, simulation, evaluation, and refinement across every level.</desc>
  <defs><style>
- .field-map-paper{fill:#fbfcf8}.field-map-ink{fill:#18281f}.field-map-muted{fill:#536257}
- .field-map-line{fill:none;stroke:#c9d8c7;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
- .field-map-orbit{fill:none;stroke:#dce8d8;stroke-width:1.5}
- .field-map-edge{fill:none;stroke:#9cbaa0;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
- .field-map-accent{fill:none;stroke:#287044;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
- .field-map-node{fill:#fbfcf8;stroke:#287044;stroke-width:1.8}
- .field-map-solid{fill:#287044;stroke:#fbfcf8;stroke-width:2.2}
- .field-map-label{fill:#18281f;font-size:35px;font-weight:600;letter-spacing:-.8px}
- .field-map-copy{fill:#536257;font-size:26px;letter-spacing:-.4px}
- .field-map-step{fill:#18281f;font-size:28px;font-weight:500;letter-spacing:-.4px}
+ .field-map-paper{fill:#faf9f6}.field-map-ink{fill:#252723}.field-map-muted{fill:#6d6c65}
+ .field-map-line{fill:none;stroke:#d4d5cd;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+ .field-map-orbit{fill:none;stroke:#ddddd6;stroke-width:1.5}
+ .field-map-edge{fill:none;stroke:#aeb2aa;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+ .field-map-accent{fill:none;stroke:#808779;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+ .field-map-node{fill:#faf9f6;stroke:#808779;stroke-width:1.8}
+ .field-map-solid{fill:#81897d;stroke:#faf9f6;stroke-width:2.2}
+ .field-map-key{fill:#5d7968}
+ .field-map-label{fill:#252723;font-size:35px;font-weight:600;letter-spacing:-.8px}
+ .field-map-copy{fill:#6d6c65;font-size:26px;letter-spacing:-.4px}
+ .field-map-step{fill:#252723;font-size:28px;font-weight:500;letter-spacing:-.4px}
  .field-map-text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
  </style>
- <marker id="field-map-arrow" viewBox="0 0 8 8" refX="6" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="m2 1 3 3-3 3" fill="none" stroke="#287044" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+ <marker id="field-map-arrow" viewBox="0 0 8 8" refX="6" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="m2 1 3 3-3 3" fill="none" stroke="#808779" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
  <rect width="1200" height="520" class="field-map-paper"/>
  <g transform="translate(0 14)"><g class="field-map-text">
  <g aria-hidden="true">
- <ellipse cx="600" cy="128" rx="522" ry="119" fill="#f0f5ec"/>
+ <ellipse cx="600" cy="128" rx="522" ry="119" fill="#f4f3ef"/>
  <path class="field-map-orbit" d="M204 59C402-14 798-14 996 59M204 207C402 268 798 268 996 207"/>
  <path class="field-map-accent" d="M518 19c54-4 111-4 165 0" marker-start="url(#field-map-arrow)" marker-end="url(#field-map-arrow)" opacity=".6"/>
  <path class="field-map-edge" d="M246 125C347 87 436 84 551 112M248 144C350 178 455 191 570 159M641 111C741 76 841 84 916 107M636 156C737 191 839 187 912 152"/>
@@ -28,20 +29,20 @@
  <path class="field-map-accent" d="M822 181c-20 2-39 2-58 1" marker-end="url(#field-map-arrow)"/>
  <!-- One person, with a persistent inner state. -->
  <circle cx="216" cy="130" r="70" class="field-map-orbit"/>
- <circle cx="216" cy="130" r="45" fill="#dbe9d5"/>
- <circle cx="216" cy="130" r="24" class="field-map-solid"/>
+ <circle cx="216" cy="130" r="45" fill="#e8e8e1"/>
+ <circle cx="216" cy="130" r="24" class="field-map-solid field-map-key"/>
  <path class="field-map-edge" d="M217 105l-17-31M239 136l41 11M205 151l-23 31"/>
  <circle cx="198" cy="71" r="6" class="field-map-node"/>
  <circle cx="285" cy="148" r="6" class="field-map-node"/>
  <circle cx="178" cy="187" r="6" class="field-map-node"/>
- <circle cx="216" cy="130" r="6" fill="#fbfcf8"/>
+ <circle cx="216" cy="130" r="6" fill="#faf9f6"/>
  <!-- Mutual relations, with no privileged direction. -->
  <circle cx="600" cy="130" r="82" class="field-map-orbit"/>
  <path class="field-map-edge" d="M560 104Q600 71 640 104M640 104Q662 147 600 172M600 172Q541 149 560 104M560 104 600 172 640 104Z"/>
  <path class="field-map-edge" d="M560 104 537 67M640 104 673 80M600 172 635 207M560 104 523 156M600 172 554 205M640 104 685 150"/>
- <circle cx="560" cy="104" r="16" class="field-map-solid"/>
- <circle cx="640" cy="104" r="16" class="field-map-solid"/>
- <circle cx="600" cy="172" r="16" class="field-map-solid"/>
+ <circle cx="560" cy="104" r="16" class="field-map-solid field-map-key"/>
+ <circle cx="640" cy="104" r="16" class="field-map-solid field-map-key"/>
+ <circle cx="600" cy="172" r="16" class="field-map-solid field-map-key"/>
  <circle cx="537" cy="67" r="5" class="field-map-node"/>
  <circle cx="673" cy="80" r="5" class="field-map-node"/>
  <circle cx="635" cy="207" r="5" class="field-map-node"/>
@@ -50,7 +51,7 @@
  <circle cx="685" cy="150" r="5" class="field-map-node"/>
  <!-- A population: local relationships and collective structure. -->
  <circle cx="984" cy="130" r="103" class="field-map-orbit"/>
- <circle cx="984" cy="130" r="77" fill="#dbe9d5" opacity=".55"/>
+ <circle cx="984" cy="130" r="77" fill="#e8e8e1" opacity=".55"/>
 <g class="field-map-edge">
 <path d="M984.0 130.0 1020.9 109.9"/>
 <path d="M984.0 130.0 995.4 170.4"/>
@@ -98,14 +99,14 @@
 <path d="M976.7 45.3 1011.8 49.7"/>
 <path d="M1011.8 49.7 1042.1 67.9"/>
 </g>
-<circle cx="984.0" cy="130.0" r="7" class="field-map-solid"/>
+<circle cx="984.0" cy="130.0" r="7" class="field-map-solid field-map-key"/>
 <circle cx="1020.9" cy="109.9" r="7" class="field-map-solid"/>
 <circle cx="1022.7" cy="146.3" r="7" class="field-map-solid"/>
-<circle cx="995.4" cy="170.4" r="7" class="field-map-solid"/>
+<circle cx="995.4" cy="170.4" r="7" class="field-map-solid field-map-key"/>
 <circle cx="959.5" cy="164.1" r="7" class="field-map-solid"/>
 <circle cx="942.1" cy="132.1" r="7" class="field-map-solid"/>
 <circle cx="956.2" cy="98.5" r="7" class="field-map-solid"/>
-<circle cx="991.2" cy="88.6" r="7" class="field-map-solid"/>
+<circle cx="991.2" cy="88.6" r="7" class="field-map-solid field-map-key"/>
 <circle cx="1062.3" cy="96.9" r="4.8" class="field-map-node"/>
 <circle cx="1069.0" cy="131.6" r="4.8" class="field-map-node"/>
 <circle cx="1061.0" cy="166.0" r="4.8" class="field-map-node"/>
@@ -134,7 +135,7 @@
  <g class="field-map-line" aria-hidden="true">
  <path d="M216 340v12q0 9 9 9h750q9 0 9-9v-12M600 340v66"/>
  </g>
- <circle cx="600" cy="361" r="3" fill="#287044"/>
+ <circle cx="600" cy="361" r="3" fill="#808779"/>
  <g text-anchor="middle">
  <text x="195" y="415" class="field-map-step">Human evidence</text>
  <text x="475" y="415" class="field-map-step">Model</text>
