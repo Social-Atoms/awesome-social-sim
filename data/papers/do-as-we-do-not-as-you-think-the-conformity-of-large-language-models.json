@@ -1,0 +1,23 @@
+{
+  "id": "do-as-we-do-not-as-you-think-the-conformity-of-large-language-models",
+  "title": "Do as We Do, Not as You Think: the Conformity of Large Language Models",
+  "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/1da9ca7e9cef4b1af63913f05d1630a4-Abstract-Conference.html",
+  "venue": "ICLR 2025",
+  "year": 2025,
+  "tags": [
+    "evaluation",
+    "multi-agent"
+  ],
+  "notes": {
+    "evaluation": "Benchmarks conformity in interacting LLM agents and tests factors and mitigation strategies.",
+    "multi-agent": "Benchmarks conformity in interacting LLM agents and tests factors and mitigation strategies."
+  },
+  "primaryTopic": "evaluation",
+  "provenance": {
+    "addedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "source": "Maintainer-provided paper list",
+    "publicationSource": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/1da9ca7e9cef4b1af63913f05d1630a4-Abstract-Conference.html",
+    "descriptionSource": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/1da9ca7e9cef4b1af63913f05d1630a4-Abstract-Conference.html"
+  }
+}

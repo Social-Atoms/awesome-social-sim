@@ -174,6 +174,20 @@ class CatalogueTests(unittest.TestCase):
         self.assertEqual(parser.paper_count, 2)
         self.assertIn('Collection updated · 21 Sep 2026', page)
 
+    def test_topic_pages_list_newest_year_first(self):
+        for paper_id, title, year in [
+            ('older-paper', 'Older Paper', 2023),
+            ('newer-paper', 'Newer Paper', 2026),
+        ]:
+            paper = deepcopy(PAPER)
+            paper.update(id=paper_id, title=title, year=year, venue=f'Example {year}', url=f'https://example.org/{paper_id}')
+            self.save_paper(paper)
+        self.run_build()
+        for topic in ('evaluation', 'multi-agent'):
+            page = (self.root / 'tags' / f'{topic}.md').read_text()
+            self.assertLess(page.index('Newer Paper'), page.index('Example Paper'))
+            self.assertLess(page.index('Example Paper'), page.index('Older Paper'))
+
     def test_readme_outside_markers_is_preserved(self):
         self.run_build()
         readme = (self.root / 'README.md').read_text()
@@ -227,6 +241,18 @@ class CatalogueTests(unittest.TestCase):
         self.assertIn('hugagent-a-human-simulation-benchmark-for-individual-level-reasoning', ids)
         self.assertEqual(len(ids), len(papers))
         self.assertTrue(all(paper['primaryTopic'] in {topic['id'] for topic in topics} for paper in papers))
+        positions = [paper for paper in papers if paper.get('kind') == 'Position paper']
+        self.assertTrue(positions)
+        self.assertTrue(all(paper['tags'] == ['position-survey'] for paper in positions))
+        self.assertTrue(all(not paper['venue'].startswith('arXiv preprint') for paper in papers))
+        for paper in papers:
+            source = paper['url']
+            if 'aclanthology.org/' not in source:
+                continue
+            if '.findings-' in source:
+                self.assertIn('Findings', paper['venue'])
+            elif any(part in source for part in ('.acl-long.', '.naacl-long.', '.emnlp-main.')):
+                self.assertIn('Main', paper['venue'])
 
     def test_field_map_links_match_catalogue_topics(self):
         _, topics, _ = builder.load_collection(ROOT)

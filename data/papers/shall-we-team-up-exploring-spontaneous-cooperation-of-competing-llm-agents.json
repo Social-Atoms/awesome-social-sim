@@ -1,0 +1,23 @@
+{
+  "id": "shall-we-team-up-exploring-spontaneous-cooperation-of-competing-llm-agents",
+  "title": "Shall We Team Up: Exploring Spontaneous Cooperation of Competing LLM Agents",
+  "url": "https://aclanthology.org/2024.findings-emnlp.297/",
+  "venue": "EMNLP 2024 Findings",
+  "year": 2024,
+  "tags": [
+    "social-experiments",
+    "multi-agent"
+  ],
+  "notes": {
+    "social-experiments": "Studies when competing LLM agents form cooperative teams.",
+    "multi-agent": "Studies when competing LLM agents form cooperative teams."
+  },
+  "primaryTopic": "social-experiments",
+  "provenance": {
+    "addedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "source": "Maintainer-provided paper list",
+    "publicationSource": "https://aclanthology.org/2024.findings-emnlp.297/",
+    "descriptionSource": "https://aclanthology.org/2024.findings-emnlp.297/"
+  }
+}

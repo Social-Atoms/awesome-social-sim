@@ -28,7 +28,7 @@ For a fork, enable Pages in the fork's settings and update the repository and we
 ## Review a catalogue contribution
 
 - Confirm it fits the scope in [CONTRIBUTING.md](../CONTRIBUTING.md), and check that another version is not already listed.
-- Open the publication or acceptance evidence. Match the title, venue, year, and status; distinguish a submission from acceptance.
+- Open the paper and publication or acceptance evidence. Match the title, venue, year, and track; distinguish a standalone preprint from an accepted paper.
 - Check each chosen topic and inclusion note. Summaries should accurately describe a demonstrated result or clearly identify a proposal.
 - Keep awards and workshop history separate from the basis for inclusion, with supporting sources.
 - Review the generated changes. Topic counts and total counts should come from the data, and the paper should appear once in each selected topic.
@@ -54,7 +54,7 @@ Keep asset references relative, such as `assets/social-atoms.svg`, so the websit
 
 ## Publication and topic updates
 
-When an accepted paper gains a proceedings page, update its existing JSON record, provenance, and venue label. Preserve its ID and useful secondary links. Update the catalogue date, then regenerate the Markdown and website.
+When an accepted paper gains a proceedings page, update its existing JSON record, provenance, year, and venue label. Preserve its ID and useful secondary links. Update the catalogue date, then regenerate the Markdown and website.
 
 Discuss new topics before adding them. A useful topic should have a clear boundary and help readers find related work; avoid creating a topic for a single incidental keyword. If a topic ID changes, update every membership and inclusion-note key together.
 

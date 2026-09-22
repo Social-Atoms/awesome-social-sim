@@ -1,0 +1,23 @@
+{
+  "id": "the-wisdom-of-partisan-crowds-comparing-collective-intelligence-in-humans-and-llm-based-agents",
+  "title": "The Wisdom of Partisan Crowds: Comparing Collective Intelligence in Humans and LLM-based Agents",
+  "url": "https://openreview.net/forum?id=BjieXEx4GG",
+  "venue": "ICLR 2024",
+  "year": 2024,
+  "tags": [
+    "evaluation",
+    "social-experiments"
+  ],
+  "notes": {
+    "evaluation": "Compares collective judgments of human crowds and LLM-agent crowds under partisanship.",
+    "social-experiments": "Compares collective judgments of human crowds and LLM-agent crowds under partisanship."
+  },
+  "primaryTopic": "evaluation",
+  "provenance": {
+    "addedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "source": "Maintainer-provided paper list",
+    "publicationSource": "https://openreview.net/forum?id=BjieXEx4GG",
+    "descriptionSource": "https://openreview.net/forum?id=BjieXEx4GG"
+  }
+}

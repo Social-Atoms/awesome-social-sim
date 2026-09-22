@@ -1,0 +1,23 @@
+{
+  "id": "mind-the-belief-gap-group-identity-in-the-world-of-llms",
+  "title": "Mind the (Belief) Gap: Group Identity in the World of LLMs",
+  "url": "https://aclanthology.org/2025.findings-acl.948/",
+  "venue": "ACL 2025 Findings",
+  "year": 2025,
+  "tags": [
+    "evaluation",
+    "multi-agent"
+  ],
+  "notes": {
+    "evaluation": "Tests belief congruence in agent groups and its effects on misinformation spread and learning.",
+    "multi-agent": "Tests belief congruence in agent groups and its effects on misinformation spread and learning."
+  },
+  "primaryTopic": "evaluation",
+  "provenance": {
+    "addedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "source": "Maintainer-provided paper list",
+    "publicationSource": "https://aclanthology.org/2025.findings-acl.948/",
+    "descriptionSource": "https://aclanthology.org/2025.findings-acl.948/"
+  }
+}

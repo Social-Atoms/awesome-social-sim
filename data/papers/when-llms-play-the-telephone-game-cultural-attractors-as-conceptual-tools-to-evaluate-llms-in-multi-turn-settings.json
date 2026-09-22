@@ -1,0 +1,23 @@
+{
+  "id": "when-llms-play-the-telephone-game-cultural-attractors-as-conceptual-tools-to-evaluate-llms-in-multi-turn-settings",
+  "title": "When LLMs Play the Telephone Game: Cultural Attractors as Conceptual Tools to Evaluate LLMs in Multi-turn Settings",
+  "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/dbdea7859f1d2fc10f2c9e79b8f5ae54-Abstract-Conference.html",
+  "venue": "ICLR 2025",
+  "year": 2025,
+  "tags": [
+    "evaluation",
+    "multi-agent"
+  ],
+  "notes": {
+    "evaluation": "Tests how repeated agent-to-agent transmission amplifies biases and produces cultural attractors.",
+    "multi-agent": "Tests how repeated agent-to-agent transmission amplifies biases and produces cultural attractors."
+  },
+  "primaryTopic": "evaluation",
+  "provenance": {
+    "addedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "source": "Maintainer-provided paper list",
+    "publicationSource": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/dbdea7859f1d2fc10f2c9e79b8f5ae54-Abstract-Conference.html",
+    "descriptionSource": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/dbdea7859f1d2fc10f2c9e79b8f5ae54-Abstract-Conference.html"
+  }
+}

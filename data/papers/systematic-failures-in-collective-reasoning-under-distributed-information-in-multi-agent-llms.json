@@ -1,0 +1,23 @@
+{
+  "id": "systematic-failures-in-collective-reasoning-under-distributed-information-in-multi-agent-llms",
+  "title": "Systematic Failures in Collective Reasoning under Distributed Information in Multi-Agent LLMs",
+  "url": "https://arxiv.org/abs/2505.11556",
+  "venue": "ICML 2026 Main · Accepted",
+  "year": 2026,
+  "tags": [
+    "evaluation",
+    "multi-agent"
+  ],
+  "notes": {
+    "evaluation": "Evaluates how groups of LLM agents combine information that is distributed across members.",
+    "multi-agent": "Evaluates how groups of LLM agents combine information that is distributed across members."
+  },
+  "primaryTopic": "evaluation",
+  "provenance": {
+    "addedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "source": "Maintainer-provided paper list",
+    "publicationSource": "https://icml.cc/Downloads/2026",
+    "descriptionSource": "https://arxiv.org/abs/2505.11556"
+  }
+}

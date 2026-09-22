@@ -1,0 +1,21 @@
+{
+  "id": "the-stepwise-deception-simulating-the-evolution-from-true-news-to-fake-news-with-llm-agents",
+  "title": "The Stepwise Deception: Simulating the Evolution from True News to Fake News with LLM Agents",
+  "url": "https://aclanthology.org/2025.emnlp-main.1330/",
+  "venue": "EMNLP 2025 Main",
+  "year": 2025,
+  "tags": [
+    "multi-agent"
+  ],
+  "notes": {
+    "multi-agent": "Simulates how true news changes into false claims through successive agent interactions."
+  },
+  "primaryTopic": "multi-agent",
+  "provenance": {
+    "addedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "source": "Maintainer-provided paper list",
+    "publicationSource": "https://aclanthology.org/2025.emnlp-main.1330/",
+    "descriptionSource": "https://aclanthology.org/2025.emnlp-main.1330/"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "from-skepticism-to-acceptance-simulating-the-attitude-dynamics-toward-fake-news",
+  "title": "From Skepticism to Acceptance: Simulating the Attitude Dynamics Toward Fake News",
+  "url": "https://www.ijcai.org/proceedings/2024/873",
+  "venue": "IJCAI 2024",
+  "year": 2024,
+  "tags": [
+    "multi-agent"
+  ],
+  "notes": {
+    "multi-agent": "Simulates changing attitudes toward fake news during social interactions."
+  },
+  "primaryTopic": "multi-agent",
+  "provenance": {
+    "addedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "source": "Maintainer-provided paper list",
+    "publicationSource": "https://www.ijcai.org/proceedings/2024/873",
+    "descriptionSource": "https://www.ijcai.org/proceedings/2024/873"
+  }
+}

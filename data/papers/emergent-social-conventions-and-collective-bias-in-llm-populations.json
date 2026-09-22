@@ -1,0 +1,21 @@
+{
+  "id": "emergent-social-conventions-and-collective-bias-in-llm-populations",
+  "title": "Emergent social conventions and collective bias in LLM populations",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12077490/",
+  "venue": "Science Advances 2025",
+  "year": 2025,
+  "tags": [
+    "multi-agent"
+  ],
+  "notes": {
+    "multi-agent": "Shows how repeated interactions among LLM agents create conventions and collective bias."
+  },
+  "primaryTopic": "multi-agent",
+  "provenance": {
+    "addedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "source": "Maintainer-provided paper list",
+    "publicationSource": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12077490/",
+    "descriptionSource": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12077490/"
+  }
+}

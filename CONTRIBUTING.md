@@ -5,20 +5,20 @@ Help readers find research that makes a clear, evidence-backed contribution to s
 ## Suggest a paper without code
 
 1. Check the [website](https://social-atoms.github.io/awesome-social-sim/) or search [`data/papers/`](data/papers/) to avoid a duplicate. Different versions of the same paper belong in one record.
-2. Open a [paper suggestion](https://github.com/Social-Atoms/awesome-social-sim/issues/new?template=paper-suggestion.yml). Include the title, publication or acceptance source, relevant topics, and a short explanation of its contribution.
+2. Open a [paper suggestion](https://github.com/Social-Atoms/awesome-social-sim/issues/new?template=paper-suggestion.yml). Include the title, paper or publication source, relevant topics, and a short explanation of its contribution.
 3. A maintainer checks scope and sources before adding it. Suggestions are reviewed on their merits; inclusion is not automatic.
 
 For an existing entry, use the [correction form](https://github.com/Social-Atoms/awesome-social-sim/issues/new?template=correction.yml) and link to evidence for the replacement.
 
 ## What we include
 
-- Published or accepted original research and benchmarks in a main conference track or established journal.
-- Selected position papers that directly address how to build, understand, or evaluate social simulations. Label their proposals as proposals.
+- Original research and benchmarks published or verifiably accepted at leading conferences and journals relevant to social simulation. Selected ACL, EMNLP, and NAACL Findings papers are eligible when their contribution fits the collection; label Main and Findings explicitly.
+- Selected position papers and surveys that directly address how to build, understand, or evaluate social simulations. Put these only in the dedicated topic and label proposals as proposals.
 - Work about simulated human behavior, social interaction, or collective dynamics, including methods that test fidelity to human evidence.
 
-We currently exclude standalone preprints, workshop-only papers, surveys, and general-purpose multi-agent task solving. A preprint URL is acceptable for an accepted paper before proceedings exist, provided acceptance is verifiable and the entry explicitly says **Accepted**. Prior workshop appearances can be recorded as history; they do not by themselves qualify a paper for inclusion.
+We currently exclude standalone preprints, workshop-only papers, lower-priority venues, and general-purpose multi-agent task solving. A preprint URL is acceptable for an accepted paper before proceedings exist, provided acceptance is verifiable from the venue or an authoritative institutional or author source and the entry explicitly says **Accepted**. Prior workshop appearances can be recorded as history; they do not by themselves qualify a paper for inclusion.
 
-Use the formal publication year, or the accepted venue's year, rather than the year of the first preprint. Prefer proceedings, publisher pages, official venue decisions, and authoritative project or institutional records. Do not infer acceptance from a submission or an event logo. Award claims need their own supporting source.
+Use the formal publication year or the accepted venue's year. Prefer proceedings, publisher pages, official venue decisions, and authoritative institutional or author records. Do not infer acceptance from a submission or an event logo. Award claims need their own supporting source. Topic pages are generated in descending year order.
 
 ## Add or correct a paper with a pull request
 

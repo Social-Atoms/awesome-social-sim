@@ -23,5 +23,10 @@
     "id": "multi-agent",
     "label": "Multi-agent interaction",
     "description": "Multiple agents interact and influence one another."
+  },
+  {
+    "id": "position-survey",
+    "label": "Position papers and surveys",
+    "description": "Research agendas, conceptual arguments, and surveys about social simulation."
   }
 ]

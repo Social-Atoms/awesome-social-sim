@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="440" height="604" viewBox="0 0 440 604" class="field-mobile-svg" role="group" aria-labelledby="field-mobile-title" aria-describedby="field-mobile-desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="660" viewBox="0 0 440 660" class="field-mobile-svg" role="group" aria-labelledby="field-mobile-title" aria-describedby="field-mobile-desc">
  <title id="field-mobile-title">A map of social simulation</title>
- <desc id="field-mobile-desc">Individuals, interactions, and societies are connected scales of social simulation. Choose Silicon participants, Social science experiments, or Multi-agent interaction to filter papers. A shared research cycle connects human evidence, modeling, simulation, and evaluation; calibration feeds back into the model. Evaluate and Calibrate open the Evaluation and Control and calibration topics.</desc>
+ <desc id="field-mobile-desc">Individuals, interactions, and societies are connected scales of social simulation. Choose Silicon participants, Social science experiments, or Multi-agent interaction to filter papers. A shared research cycle connects human evidence, modeling, simulation, and evaluation; calibration feeds back into the model. Evaluate, Calibrate, and Position papers and surveys open their respective topics.</desc>
  <defs>
   <style>
    .field-mobile-svg{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
@@ -199,4 +199,9 @@
  <text x="277" y="582" text-anchor="middle" class="field-mobile-topic">Calibrate</text>
  <path d="M253 591h48" class="field-mobile-underline"/>
 </a>
+ <a class="field-topic-link" data-topic="position-survey" href="https://awesome.social-atoms.org/?topic=position-survey#papers" aria-label="Browse Position papers and surveys" tabindex="0">
+ <rect x="76" y="611" width="288" height="44" rx="8" class="field-mobile-hit"/>
+ <text x="220" y="639" text-anchor="middle" class="field-mobile-topic">Position papers and surveys</text>
+ <path d="M196 650h48" class="field-mobile-underline"/>
+ </a>
 </svg>

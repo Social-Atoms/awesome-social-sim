@@ -19,25 +19,26 @@ The [field map](https://awesome.social-atoms.org/#field-guide) connects individu
 
 ## Browse by topic
 
-**14 papers · 5 topics.** A paper can appear in several topics.
+**31 papers · 6 topics.** A paper can appear in several topics.
 
 | Topic                                                      | Focus                                                                                    | Papers |
 | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------- | -----: |
-| [Control and calibration](<tags/control-calibration.md>)   | Methods that measure, control, or calibrate simulated behavior toward specified targets. |      3 |
-| [Evaluation](<tags/evaluation.md>)                         | Benchmarks or human-grounded checks of simulation fidelity and social behavior.          |      8 |
+| [Control and calibration](<tags/control-calibration.md>)   | Methods that measure, control, or calibrate simulated behavior toward specified targets. |      2 |
+| [Evaluation](<tags/evaluation.md>)                         | Benchmarks or human-grounded checks of simulation fidelity and social behavior.          |     14 |
 | [Silicon participants](<tags/silicon-participants.md>)     | Simulated human participants, including survey and questionnaire responses.              |      5 |
-| [Social science experiments](<tags/social-experiments.md>) | Simulations based on behavioral, psychology, or economics experiments.                   |      5 |
-| [Multi-agent interaction](<tags/multi-agent.md>)           | Multiple agents interact and influence one another.                                      |      6 |
+| [Social science experiments](<tags/social-experiments.md>) | Simulations based on behavioral, psychology, or economics experiments.                   |      8 |
+| [Multi-agent interaction](<tags/multi-agent.md>)           | Multiple agents interact and influence one another.                                      |     21 |
+| [Position papers and surveys](<tags/position-survey.md>)   | Research agendas, conceptual arguments, and surveys about social simulation.             |      2 |
 
 <!-- catalogue:end -->
 
 ## What belongs here
 
-- Original research and benchmarks published or accepted in a main conference track or established journal, plus selected position papers that directly address social simulation.
+- Original research and benchmarks on social simulation published or verifiably accepted at leading conferences and journals. Selected position papers and surveys have their own topic.
 - Work making a substantive claim about simulated human behavior, social interaction, or collective dynamics, or providing methods to test those claims.
-- Verifiable publication or acceptance evidence. Accepted papers are labeled as such until proceedings are available; position papers are identified explicitly.
+- Verifiable publication or acceptance evidence. ACL-family entries distinguish Main from Findings; accepted papers are labeled until proceedings are available.
 
-Standalone preprints, workshop-only papers, surveys, and general-purpose multi-agent task solving are outside the current scope. An earlier workshop appearance can be recorded as publication history after a paper qualifies for inclusion. Venue distinctions are factual context, not a ranking of papers.
+Standalone preprints, workshop-only papers, and general-purpose multi-agent task solving are outside the current scope. Position papers and surveys appear only in their dedicated topic. Venue distinctions are factual context, not a ranking of papers. Within each topic, papers are listed by year from newest to oldest.
 
 ## Help improve the collection
 

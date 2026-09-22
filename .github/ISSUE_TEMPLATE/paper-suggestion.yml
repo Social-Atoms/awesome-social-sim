@@ -1,11 +1,11 @@
 name: Suggest a paper
-description: Propose a published or accepted paper for the collection. No code changes needed.
+description: Propose a paper for the collection. No code changes needed.
 title: "[Paper] "
 body:
   - type: markdown
     attributes:
       value: |
-        Thank you for helping improve the collection. Please check for duplicates and read the [selection criteria](https://github.com/Social-Atoms/awesome-social-sim/blob/main/CONTRIBUTING.md#what-we-include). We include research and benchmarks on simulated human behavior and social interaction, plus selected position papers. Standalone preprints and workshop-only papers are outside the current scope.
+        Thank you for helping improve the collection. Please check for duplicates and read the [selection criteria](https://github.com/Social-Atoms/awesome-social-sim/blob/main/CONTRIBUTING.md#what-we-include). We include published or verifiably accepted research on simulated human behavior and social interaction, plus selected position papers and surveys. Standalone preprints and workshop-only papers are outside the current scope.
   - type: input
     id: title
     attributes:
@@ -17,7 +17,7 @@ body:
     id: paper_url
     attributes:
       label: Paper URL
-      description: Prefer the proceedings or publisher page. For accepted work awaiting proceedings, a preprint link is fine.
+      description: Prefer the proceedings or publisher page; use a preprint link only for accepted work awaiting proceedings.
       placeholder: https://...
     validations:
       required: true
@@ -25,15 +25,15 @@ body:
     id: venue
     attributes:
       label: Venue, year, and publication status
-      description: Name the main conference track or journal. Clearly identify accepted work and position tracks.
-      placeholder: EMNLP 2023 — published
+      description: Name the venue and status. For ACL, EMNLP, or NAACL, specify Main or Findings.
+      placeholder: EMNLP 2025 Main; or ACL 2025 Findings
     validations:
       required: true
   - type: textarea
     id: evidence
     attributes:
-      label: Publication or acceptance evidence
-      description: Link a source that explicitly confirms the venue and status. You can repeat the paper URL if the proceedings page establishes both.
+      label: Paper and status evidence
+      description: Link the paper source and, for published or accepted work, a source confirming venue and status.
     validations:
       required: true
   - type: dropdown
@@ -48,6 +48,7 @@ body:
         - Silicon participants
         - Social science experiments
         - Multi-agent interaction
+        - Position papers and surveys
     validations:
       required: true
   - type: textarea

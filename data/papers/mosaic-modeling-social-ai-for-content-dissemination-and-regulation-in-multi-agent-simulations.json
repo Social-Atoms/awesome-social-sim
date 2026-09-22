@@ -1,0 +1,21 @@
+{
+  "id": "mosaic-modeling-social-ai-for-content-dissemination-and-regulation-in-multi-agent-simulations",
+  "title": "MOSAIC: Modeling Social AI for Content Dissemination and Regulation in Multi-Agent Simulations",
+  "url": "https://aclanthology.org/2025.emnlp-main.325/",
+  "venue": "EMNLP 2025 Main",
+  "year": 2025,
+  "tags": [
+    "multi-agent"
+  ],
+  "notes": {
+    "multi-agent": "Simulates content sharing and moderation decisions on a social network."
+  },
+  "primaryTopic": "multi-agent",
+  "provenance": {
+    "addedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "source": "Maintainer-provided paper list",
+    "publicationSource": "https://aclanthology.org/2025.emnlp-main.325/",
+    "descriptionSource": "https://aclanthology.org/2025.emnlp-main.325/"
+  }
+}

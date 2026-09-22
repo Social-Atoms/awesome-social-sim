@@ -1,0 +1,23 @@
+{
+  "id": "exploring-collaboration-mechanisms-for-llm-agents-a-social-psychology-view",
+  "title": "Exploring Collaboration Mechanisms for LLM Agents: A Social Psychology View",
+  "url": "https://aclanthology.org/2024.acl-long.782/",
+  "venue": "ACL 2024 Main",
+  "year": 2024,
+  "tags": [
+    "social-experiments",
+    "multi-agent"
+  ],
+  "notes": {
+    "social-experiments": "Uses social-psychology concepts to study collaboration in societies of LLM agents.",
+    "multi-agent": "Uses social-psychology concepts to study collaboration in societies of LLM agents."
+  },
+  "primaryTopic": "social-experiments",
+  "provenance": {
+    "addedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "source": "Maintainer-provided paper list",
+    "publicationSource": "https://aclanthology.org/2024.acl-long.782/",
+    "descriptionSource": "https://aclanthology.org/2024.acl-long.782/"
+  }
+}

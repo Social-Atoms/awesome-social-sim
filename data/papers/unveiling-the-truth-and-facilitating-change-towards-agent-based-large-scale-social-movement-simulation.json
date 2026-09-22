@@ -1,0 +1,21 @@
+{
+  "id": "unveiling-the-truth-and-facilitating-change-towards-agent-based-large-scale-social-movement-simulation",
+  "title": "Unveiling the Truth and Facilitating Change: Towards Agent-based Large-scale Social Movement Simulation",
+  "url": "https://aclanthology.org/2024.findings-acl.285/",
+  "venue": "ACL 2024 Findings",
+  "year": 2024,
+  "tags": [
+    "multi-agent"
+  ],
+  "notes": {
+    "multi-agent": "Simulates social media participation and the dynamics of large-scale social movements."
+  },
+  "primaryTopic": "multi-agent",
+  "provenance": {
+    "addedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "source": "Maintainer-provided paper list",
+    "publicationSource": "https://aclanthology.org/2024.findings-acl.285/",
+    "descriptionSource": "https://aclanthology.org/2024.findings-acl.285/"
+  }
+}

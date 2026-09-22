@@ -2,7 +2,7 @@
   "id": "character-llm-a-trainable-agent-for-role-playing",
   "title": "Character-LLM: A Trainable Agent for Role-Playing",
   "url": "https://aclanthology.org/2023.emnlp-main.814/",
-  "venue": "EMNLP 2023",
+  "venue": "EMNLP 2023 Main",
   "year": 2023,
   "tags": [
     "control-calibration",

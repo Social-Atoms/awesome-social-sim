@@ -1,0 +1,21 @@
+{
+  "id": "trendsim-simulating-trending-topics-in-social-media-under-poisoning-attacks-with-llm-based-multi-agent-system",
+  "title": "TrendSim: Simulating Trending Topics in Social Media Under Poisoning Attacks with LLM-based Multi-agent System",
+  "url": "https://aclanthology.org/2025.findings-naacl.160/",
+  "venue": "NAACL 2025 Findings",
+  "year": 2025,
+  "tags": [
+    "multi-agent"
+  ],
+  "notes": {
+    "multi-agent": "Simulates trending-topic dynamics under social-media poisoning attacks."
+  },
+  "primaryTopic": "multi-agent",
+  "provenance": {
+    "addedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "source": "Maintainer-provided paper list",
+    "publicationSource": "https://aclanthology.org/2025.findings-naacl.160/",
+    "descriptionSource": "https://aclanthology.org/2025.findings-naacl.160/"
+  }
+}

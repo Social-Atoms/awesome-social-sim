@@ -1,0 +1,39 @@
+{
+  "id": "position-llm-social-simulations-are-a-promising-research-method",
+  "title": "Position: LLM Social Simulations Are a Promising Research Method",
+  "url": "https://proceedings.mlr.press/v267/anthis25a.html",
+  "venue": "ICML 2025 · Position Paper Track",
+  "year": 2025,
+  "kind": "Position paper",
+  "tags": [
+    "position-survey"
+  ],
+  "primaryTopic": "position-survey",
+  "notes": {
+    "position-survey": "Argues for LLM social simulations as a research method and identifies five challenges to improve their validity and use."
+  },
+  "authors": [
+    "Jacy Reese Anthis",
+    "Ryan Liu",
+    "Sean M. Richardson",
+    "Austin C. Kozlowski",
+    "Bernard Koch",
+    "Erik Brynjolfsson",
+    "James Evans",
+    "Michael S. Bernstein"
+  ],
+  "resources": [
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/abs/2504.02234"
+    }
+  ],
+  "provenance": {
+    "addedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "source": "ICML 2025 Position Paper Track proceedings.",
+    "authorSource": "https://proceedings.mlr.press/v267/anthis25a.html",
+    "publicationSource": "https://proceedings.mlr.press/v267/anthis25a.html",
+    "descriptionSource": "https://proceedings.mlr.press/v267/anthis25a.html"
+  }
+}

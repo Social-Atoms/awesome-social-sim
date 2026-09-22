@@ -1,0 +1,29 @@
+{
+  "id": "can-a-society-of-generative-agents-simulate-human-behavior-and-inform-public-health-policy-a-case-study-on-vaccine-hesitancy",
+  "title": "Can A Society of Generative Agents Simulate Human Behavior and Inform Public Health Policy? A Case Study on Vaccine Hesitancy",
+  "url": "https://openreview.net/pdf/efdbcf1c87e1f5c9d8ded3b5bd028477a557f88e.pdf",
+  "venue": "COLM 2025",
+  "year": 2025,
+  "tags": [
+    "evaluation",
+    "multi-agent"
+  ],
+  "notes": {
+    "evaluation": "Studies whether an agent society can reproduce vaccine hesitancy and model policy interventions.",
+    "multi-agent": "Studies whether an agent society can reproduce vaccine hesitancy and model policy interventions."
+  },
+  "primaryTopic": "evaluation",
+  "provenance": {
+    "addedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "source": "Maintainer-provided paper list",
+    "publicationSource": "https://openreview.net/pdf/efdbcf1c87e1f5c9d8ded3b5bd028477a557f88e.pdf",
+    "descriptionSource": "https://arxiv.org/abs/2503.09639"
+  },
+  "resources": [
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/abs/2503.09639"
+    }
+  ]
+}

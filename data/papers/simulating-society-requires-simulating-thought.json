@@ -5,14 +5,12 @@
   "venue": "NeurIPS 2025 · Position Track",
   "year": 2025,
   "kind": "Position paper",
-  "primaryTopic": "control-calibration",
+  "primaryTopic": "position-survey",
   "tags": [
-    "control-calibration",
-    "evaluation"
+    "position-survey"
   ],
   "notes": {
-    "control-calibration": "Proposes GenMinds: cognitively grounded agents with structured, revisable beliefs and traceable reasoning for social simulation.",
-    "evaluation": "Proposes RECAP to evaluate reasoning fidelity through causal traceability, demographic grounding, and intervention consistency."
+    "position-survey": "Argues that credible social simulation requires modeling people's reasoning, and proposes GenMinds and RECAP as a research direction."
   },
   "authors": [
     "Chance Jiajie Li",

@@ -8,9 +8,9 @@ Each paper has one UTF-8 JSON file at `data/papers/<id>.json`. The filename must
 | --- | --- |
 | `id` | Stable lowercase, hyphen-separated identifier. Keep it when metadata or the title changes. |
 | `title` | The paper's full title, using its publication's capitalization. |
-| `url` | Canonical HTTPS paper link. Prefer proceedings or a publisher page; use a preprint for accepted work awaiting proceedings. |
-| `venue` | Human-readable venue and year. Include `Accepted` if proceedings are not yet available, and identify a position track when applicable. |
-| `year` | Integer publication year, or accepted venue's year. |
+| `url` | Canonical HTTPS paper link. Prefer proceedings or a publisher page; use a preprint only for accepted work awaiting proceedings. |
+| `venue` | Human-readable venue and year. Include `Accepted` if proceedings are not yet available, identify a position track when applicable, and distinguish ACL-family Main from Findings. |
+| `year` | Integer publication year or accepted venue's year. |
 | `tags` | Nonempty list of distinct topic IDs from [`topics.json`](../data/topics.json). |
 | `primaryTopic` | One of the record's tags; determines the default description shown on the website. |
 | `notes` | Object with exactly one short inclusion note for each tag, keyed by that tag's ID. |
@@ -22,7 +22,7 @@ This existing Character-LLM record demonstrates the minimum shape:
   "id": "character-llm-a-trainable-agent-for-role-playing",
   "title": "Character-LLM: A Trainable Agent for Role-Playing",
   "url": "https://aclanthology.org/2023.emnlp-main.814/",
-  "venue": "EMNLP 2023",
+  "venue": "EMNLP 2023 Main",
   "year": 2023,
   "tags": ["control-calibration", "silicon-participants"],
   "primaryTopic": "control-calibration",
@@ -33,7 +33,7 @@ This existing Character-LLM record demonstrates the minimum shape:
 }
 ```
 
-The record already exists; edit it in place rather than adding a duplicate. For a new entry, also supply the publication evidence described below.
+The record already exists; edit it in place rather than adding a duplicate. For a new entry, also supply the source evidence described below.
 
 ## Optional fields
 
@@ -60,7 +60,7 @@ Resource links appear under the paper title on both the website and GitHub topic
 | `addedAt` | Date first added, in `YYYY-MM-DD` format. |
 | `checkedAt` | Date the supporting metadata was last checked, in the same format. |
 | `source` | Brief editorial context about the source or verification. |
-| `publicationSource` | HTTPS URL supporting publication or acceptance. |
+| `publicationSource` | HTTPS URL supporting publication or acceptance at the stated venue. |
 | `descriptionSource` | HTTPS URL for the paper or official abstract supporting the inclusion notes. |
 | `authorSource` | HTTPS URL supporting names, order, and any equal-contribution information. |
 | `workshopSources` | List of HTTPS URLs supporting earlier workshop appearances. |
@@ -77,7 +77,7 @@ For example, the official publication page for Character-LLM can support both it
 }
 ```
 
-Use the actual date you checked the sources. For an accepted paper, the evidence must explicitly establish acceptance; an arXiv submission alone does not. When proceedings appear, replace the main `url`, remove the `Accepted` qualifier from `venue`, and update the provenance. Keep the same paper ID and preserve useful project or preprint links under `resources`.
+Use the actual date you checked the sources. For an accepted paper, the evidence must explicitly establish acceptance; an arXiv submission alone does not. When proceedings appear, replace the main `url`, update the `venue`, `year`, and provenance, and preserve the same paper ID and useful secondary links under `resources`.
 
 ## Topics and collection metadata
 

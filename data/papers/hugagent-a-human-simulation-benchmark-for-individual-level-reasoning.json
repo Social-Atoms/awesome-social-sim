@@ -53,13 +53,14 @@
   ],
   "provenance": {
     "addedAt": "2026-09-21",
-    "source": "Publication and resource metadata verified against the linked sources.",
+    "source": "MIT Media Lab lists EMNLP 2026; an author announcement confirms the main conference track.",
     "authorSource": "https://cjj.li/research/",
-    "publicationSource": "https://arxiv.org/abs/2510.15144",
+    "publicationSource": "https://www.media.mit.edu/groups/media-lab-research-theme-future-worlds/publications/",
     "workshopSources": [
       "https://cjj.li/research/",
       "https://neurips.cc/virtual/2025/136261"
     ],
-    "descriptionSource": "https://arxiv.org/abs/2510.15144"
+    "descriptionSource": "https://arxiv.org/abs/2510.15144",
+    "checkedAt": "2026-09-22"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "id": "emergence-of-social-norms-in-generative-agent-societies-principles-and-architecture",
+  "title": "Emergence of Social Norms in Generative Agent Societies: Principles and Architecture",
+  "url": "https://www.ijcai.org/proceedings/2024/874",
+  "venue": "IJCAI 2024",
+  "year": 2024,
+  "tags": [
+    "multi-agent"
+  ],
+  "notes": {
+    "multi-agent": "Proposes an agent architecture for the emergence of social norms."
+  },
+  "primaryTopic": "multi-agent",
+  "provenance": {
+    "addedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "source": "Maintainer-provided paper list",
+    "publicationSource": "https://www.ijcai.org/proceedings/2024/874",
+    "descriptionSource": "https://www.ijcai.org/proceedings/2024/874"
+  }
+}

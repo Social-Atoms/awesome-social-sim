@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" class="field-map-svg" role="group" aria-labelledby="field-map-title" aria-describedby="field-map-desc">
  <title id="field-map-title">A map of social simulation</title>
- <desc id="field-map-desc">Individuals, interactions, and societies are connected scales of social simulation. Choose Silicon participants, Social science experiments, or Multi-agent interaction to filter papers. A shared research cycle connects human evidence, modeling, simulation, and evaluation; calibration feeds back into the model. Evaluate and Calibrate open the Evaluation and Control and calibration topics.</desc>
+ <desc id="field-map-desc">Individuals, interactions, and societies are connected scales of social simulation. Choose Silicon participants, Social science experiments, or Multi-agent interaction to filter papers. A shared research cycle connects human evidence, modeling, simulation, and evaluation; calibration feeds back into the model. Evaluate, Calibrate, and Position papers and surveys open their respective topics.</desc>
  <defs><style>
  .field-map-paper{fill:#fbfcf8}.field-map-ink{fill:#18281f}.field-map-muted{fill:#536257}
  .field-map-line{fill:none;stroke:#c9d8c7;stroke-width:1.25;stroke-linecap:round;stroke-linejoin:round}
@@ -196,5 +196,10 @@
  <text x="735" y="361" text-anchor="middle" class="field-map-topic">Calibrate</text>
  <path d="M711 371h48" class="field-map-underline"/>
 </a>
+ <a class="field-topic-link" data-topic="position-survey" href="https://awesome.social-atoms.org/?topic=position-survey#papers" aria-label="Browse Position papers and surveys" tabindex="0">
+ <rect x="28" y="336" width="262" height="40" rx="8" class="field-map-hit"/>
+ <text x="159" y="361" text-anchor="middle" class="field-map-topic">Position papers and surveys</text>
+ <path d="M135 371h48" class="field-map-underline"/>
+ </a>
  </g>
 </svg>

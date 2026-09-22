@@ -1,0 +1,23 @@
+{
+  "id": "agentsense-benchmarking-social-intelligence-of-language-agents-through-interactive-scenarios",
+  "title": "AgentSense: Benchmarking Social Intelligence of Language Agents through Interactive Scenarios",
+  "url": "https://aclanthology.org/2025.naacl-long.257/",
+  "venue": "NAACL 2025 Main",
+  "year": 2025,
+  "tags": [
+    "evaluation",
+    "multi-agent"
+  ],
+  "notes": {
+    "evaluation": "Benchmarks agents' social intelligence through interactive scenarios.",
+    "multi-agent": "Benchmarks agents' social intelligence through interactive scenarios."
+  },
+  "primaryTopic": "evaluation",
+  "provenance": {
+    "addedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "source": "Maintainer-provided paper list",
+    "publicationSource": "https://aclanthology.org/2025.naacl-long.257/",
+    "descriptionSource": "https://aclanthology.org/2025.naacl-long.257/"
+  }
+}
